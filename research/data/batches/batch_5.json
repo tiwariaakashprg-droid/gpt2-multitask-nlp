@@ -1,0 +1,602 @@
+[
+  {
+    "id": "98a55b48",
+    "category": "factual",
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Mona Lisa was painted by Leonardo da Vinci in 1296."
+  },
+  {
+    "id": "2ae184b0",
+    "category": "factual",
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The chemical symbol for gold is G^2."
+  },
+  {
+    "id": "7f7451d8",
+    "category": "factual",
+    "instruction": "What is the tallest mountain in the world?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The tallest mountain in the world is Everest."
+  },
+  {
+    "id": "a0b0a060",
+    "category": "factual",
+    "instruction": "Who wrote the play Romeo and Juliet?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The play Romeo and Juliet is written by Charles de Vigna, and it is the first play of the French play Romeo and Juliet. It was written by the late French playwright, Michel Traverot, and was published in 1648."
+  },
+  {
+    "id": "ba0c904c",
+    "category": "factual",
+    "instruction": "Who developed the theory of relativity?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The theory of relativity is that particles are like water, but their masses are not completely related to their distance to the Sun. Physics can only be observed in space, and observations can only be obtained over very short places. This theory of relativity accounts for both cause and effect (injecting particles and"
+  },
+  {
+    "id": "09b6cf06",
+    "category": "factual",
+    "instruction": "Who wrote the novel Pride and Prejudice?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Gloria Cartagena was a French woman who lived in the heart of Paris before she met her new husband. She is said to have been influenced by the novel and her life experiences are seen through the eyes of a woman who is often depicted as a person of extraordinary courage, ambition, and"
+  },
+  {
+    "id": "64cb6e5d",
+    "category": "factual",
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Capital of Australia is the state capital of Australia."
+  },
+  {
+    "id": "ec0f2e10",
+    "category": "factual",
+    "instruction": "Who wrote the novel Pride and Prejudice?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Died"
+  },
+  {
+    "id": "cf63a658",
+    "category": "factual",
+    "instruction": "Who was the first President of the United States?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "George Washington was the first President of the United States. He was sworn in on January 20, 1776."
+  },
+  {
+    "id": "abc8af11",
+    "category": "factual",
+    "instruction": "What is the smallest planet in our solar system?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The smallest planet in our solar system is the Little Planet Cloud, which is located about 300 light years away from our Sun."
+  },
+  {
+    "id": "8fa93f82",
+    "category": "factual",
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Mona Lisa was created by Leonardo da Vinci in 1592. It was painted by Leonardo da Vinci with the help of his daughter, Florence."
+  },
+  {
+    "id": "5a4294eb",
+    "category": "factual",
+    "instruction": "Who developed the theory of relativity?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The theory of relativity is the theory of relativity created by Einstein and others in the late 1960s and early 1970s. The theory is based on the theory of relativity that states that the curvature of space is caused by the curvature of a planet, rather than by any particular force. This curv"
+  },
+  {
+    "id": "970ed795",
+    "category": "math",
+    "instruction": "Solve for x: 5x = 45.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Solution for x: 5x = 45"
+  },
+  {
+    "id": "00fb9d31",
+    "category": "math",
+    "instruction": "Convert 2 hours into minutes.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Two hours in two minutes = 3120."
+  },
+  {
+    "id": "1e811718",
+    "category": "math",
+    "instruction": "Convert 3 kilograms to grams.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "3 kilograms = 3.2 grams."
+  },
+  {
+    "id": "3ab10d18",
+    "category": "math",
+    "instruction": "What is the average of 4, 8, and 12?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The average of 4, 8, and 12 is 25.5 units."
+  },
+  {
+    "id": "0ee4ecb5",
+    "category": "math",
+    "instruction": "Convert 2 hours into minutes.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "2 hours is equal to 16 minutes."
+  },
+  {
+    "id": "1ad44118",
+    "category": "math",
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "12 squared is equal to 10^(10^2/2)^2 = 6.5 for X, and 8 is equal to 6.56 for Y, and 3 for X^3, so for X = 4,12 is equal to 9^(9/2)^2"
+  },
+  {
+    "id": "65d4ebf6",
+    "category": "math",
+    "instruction": "Solve for y: y/3 + 2 = 7.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Consequently, given that 3 is 2, and 16 is 11, you need 2+9 = 0.0014 to reach y = 4. As you add up y + 2, y+2, and x^2, infinity is equal to 11. The approximate result is that there"
+  },
+  {
+    "id": "8a0393a1",
+    "category": "math",
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "30% of 150 is equal to 15.5% of 150."
+  },
+  {
+    "id": "7567b9b0",
+    "category": "math",
+    "instruction": "Convert 3 kilograms to grams.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "To convert 3 kilograms to grams is 2511"
+  },
+  {
+    "id": "1208f288",
+    "category": "math",
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "10 kilometers has 64,110 kilometers of total traveled."
+  },
+  {
+    "id": "2b72bfec",
+    "category": "math",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "144 = 1, 036."
+  },
+  {
+    "id": "b6948ff0",
+    "category": "math",
+    "instruction": "What is the perimeter of a square with side length 6?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The perimeter of a square with side length 6 is 66.5 inches (147.9 cm \u00d7 78.6 cm)."
+  },
+  {
+    "id": "839d58bf",
+    "category": "reasoning",
+    "instruction": "Why do we see lightning before hearing thunder?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The lightning that strikes before a thunderstorm is caused by a combination of factors, such as the wind, rain, and lightning strikes. The lightning that strikes before a thunderstorm is caused by a combination of factors, such as the wind, rain, and lightning strikes."
+  },
+  {
+    "id": "dd488383",
+    "category": "reasoning",
+    "instruction": "Two trains start from the same station in opposite directions. How would you calculate the distance between them after 2 hours?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Distance between the two trains is 1.875 miles."
+  },
+  {
+    "id": "72881c69",
+    "category": "reasoning",
+    "instruction": "All birds can fly. A penguin is a bird. Is the conclusion 'a penguin can fly' valid? Explain.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, the conclusion \"a penguin can fly\" is valid. It is a valid conclusion because penguins are mammals, and they are able to fly. They are also known to have a range of different habitats, including in the Antarctic, in which to live."
+  },
+  {
+    "id": "f9d014b4",
+    "category": "reasoning",
+    "instruction": "If it is raining, the ground gets wet. The ground is wet. Can we conclude it is raining? Explain.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, the ground is wet."
+  },
+  {
+    "id": "6977765b",
+    "category": "reasoning",
+    "instruction": "Explain why the sky appears blue during the day.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sky appears blue during the day because of the sun's rays, which scatter the sky in a circular pattern. The sun's rays scatter the sky in a circle, creating a bright, circular sky. The colors of the sky are blue, violet, and white."
+  },
+  {
+    "id": "5377a51d",
+    "category": "reasoning",
+    "instruction": "Explain why the sky appears blue during the day.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The sky appears blue in terms of both wavelengths of light, compared to white during the night. The red and blue light rays at the X-axis are smaller in total wavelength, whereas the orange and yellow changes in total distance. Additionally, most visible objects on the celestial body have higher spatial energy levels"
+  },
+  {
+    "id": "102200a8",
+    "category": "reasoning",
+    "instruction": "Why does ice melt faster in warm water than in cold water?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Temperature changes can have a huge effect on ice flow, as it freezes more rapidly. It releases a strong magnetic field to create hot and cold air closer to the surface. Increasing temperatures can also significantly improve the speed of the water - this can take place with cold air coming from the ocean, while hot"
+  },
+  {
+    "id": "5ddaa131",
+    "category": "reasoning",
+    "instruction": "Two trains start from the same station in opposite directions. How would you calculate the distance between them after 2 hours?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Using the distance of the two trains as evidence would have to be taken into account the person doing the calculation of the distance. Another consideration would be based on their race or age. After doing the math, it would end up being an overall rate of 3.74 to 4.61 in 5 minutes"
+  },
+  {
+    "id": "d06da90d",
+    "category": "reasoning",
+    "instruction": "A farmer has 3 chickens and buys 5 more. How many chickens does he have now?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Three chickens and 5 more chickens is enough to buy 5 more chickens."
+  },
+  {
+    "id": "66be58eb",
+    "category": "reasoning",
+    "instruction": "If it is raining, the ground gets wet. The ground is wet. Can we conclude it is raining? Explain.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The rain does not necessarily indicate a lack of rain in the vicinity of the player. It can be caused by elements such as sand, concrete, water, and other factors."
+  },
+  {
+    "id": "e03bd92b",
+    "category": "reasoning",
+    "instruction": "A car travels 60 miles in 1 hour. How far will it travel in 3 hours at the same speed?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The car will typically travel in 3 hours at the same speed at which it is travelling in its current state of motion."
+  },
+  {
+    "id": "542cb11a",
+    "category": "reasoning",
+    "instruction": "If a plant is kept in a dark room, what will happen to it over time?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "One of the main reasons plants become much less attractive to some people at night can be because light traps too dense on the plants foliage, making them taller, which reduces their light potential, creating a hard light build up on the plants eyes, making them less colorful and a less effective sight for regular people"
+  },
+  {
+    "id": "a3ab89bf",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to remove the passive voice.",
+    "input": "The window was broken by the storm.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Prerequisite: Storm"
+  },
+  {
+    "id": "89fce48a",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to sound more polite.",
+    "input": "Give me the report now.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I have the report now."
+  },
+  {
+    "id": "3025529d",
+    "category": "writing",
+    "instruction": "Rewrite this sentence using a metaphor.",
+    "input": "She was very happy.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "She is always smiling and smiling."
+  },
+  {
+    "id": "f5d8f020",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence using a simile.",
+    "input": "The car is very fast.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The car is very fast."
+  },
+  {
+    "id": "cdbca833",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence in a more formal tone.",
+    "input": "That's awesome, thanks a lot!",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "It's great to have you here."
+  },
+  {
+    "id": "d250c3e8",
+    "category": "writing",
+    "instruction": "Rewrite this sentence in the passive voice.",
+    "input": "The chef cooked the meal.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The Chef Cooked The Meal"
+  },
+  {
+    "id": "3203eab7",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to make it more concise.",
+    "input": "Due to the fact that it was raining, we decided to stay indoors.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The rain was already falling on the outside, making it difficult to stay up."
+  },
+  {
+    "id": "85aa1b8f",
+    "category": "writing",
+    "instruction": "Write a short caption for a photo of a sunset.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Nature's Funland"
+  },
+  {
+    "id": "22e78c64",
+    "category": "writing",
+    "instruction": "Write a short greeting for a birthday card.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Dear Birthday Card Fans,\n\nI would like to express my deepest appreciation for all of you who have made this year's card a success. I hope you enjoy it for as long as it lasts. I can't wait to get to work this summer and look forward to the summer of growing up"
+  },
+  {
+    "id": "dda72680",
+    "category": "writing",
+    "instruction": "Rewrite the following paragraph to remove repetition.",
+    "input": "The dog ran fast. The dog was happy. The dog barked loudly.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The dog ran fast."
+  },
+  {
+    "id": "3477a28f",
+    "category": "writing",
+    "instruction": "Write a short farewell message for a coworker leaving the company.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I'm so grateful to have had the opportunity to work with you for years. I know you will be a great addition to our team and will help us grow. I know you will be a great addition to our team and will help us find new opportunities."
+  },
+  {
+    "id": "82838862",
+    "category": "writing",
+    "instruction": "Rewrite this sentence using a metaphor.",
+    "input": "She was very happy.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "She was happy!"
+  },
+  {
+    "id": "5ba369d5",
+    "category": "instruction_following",
+    "instruction": "Name three colors that are found in a rainbow.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "#1 is blue, #2 is red, and #3 is black."
+  },
+  {
+    "id": "96a30595",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'thank you' into Spanish.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Thank you."
+  },
+  {
+    "id": "576f3d9f",
+    "category": "instruction_following",
+    "instruction": "Explain what recycling means in one sentence.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Recycling allows us to recycle in multiple ways, each providing a unique experience for our environment. Each recycling process is complex but can make a huge impact in our lives. We make money and get through life's ups and downs with a simple and straightforward process. Recycling helps us save for"
+  },
+  {
+    "id": "4dcc68ac",
+    "category": "instruction_following",
+    "instruction": "Name two famous landmarks in Europe.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Nordic cities such as Paris, Berlin, and Warsaw are famous for their architecture, architecture, and architecture-inspired architecture."
+  },
+  {
+    "id": "fe6ce878",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'goodbye' into German.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Goodbye is the third syllable of the verb 'to be' in the verb 'to be'."
+  },
+  {
+    "id": "c2d32065",
+    "category": "instruction_following",
+    "instruction": "List two ways to save water at home.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "1. Take advantage of all types of water supply. Supplies such as drinking faucets, washing dishes and stoves can be easily accessed using public water systems. \n2. Reach out and offer suggestions online. Reducing water stress is essential and can help stay hydrated for longer sessions"
+  },
+  {
+    "id": "b2b7a043",
+    "category": "instruction_following",
+    "instruction": "Name two famous landmarks in Europe.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Paris, October 15, 1874, Trafalgar Square, London's last iconic symbol |"
+  },
+  {
+    "id": "6ee442e1",
+    "category": "instruction_following",
+    "instruction": "Give two tips for improving focus while studying.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "1. Focus on the task at hand and the task at hand is the one you are trying to accomplish. Focus on the task at hand and the task at hand is the one you are trying to accomplish.\n2. Take time to think and practice your skills. Take time to think about the"
+  },
+  {
+    "id": "0b8d02e4",
+    "category": "instruction_following",
+    "instruction": "List three common pets people keep at home.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Dog: Dogs are the most common pet people keep at home. They are usually found in the backyard, in the living room, or in the living room. They are also the most likely to be seen outside of the house."
+  },
+  {
+    "id": "bf9dcf6b",
+    "category": "instruction_following",
+    "instruction": "Explain what a database is in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "A database is a set of servers or databases, usually located on different computers throughout the user's home. Per servers, you keep a directory of all your users' financial information on these computers. A database store assigns each user a unique ID assigned to his or her account in a stored database each day"
+  },
+  {
+    "id": "85bf34c5",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'please' into Japanese.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Please be kind."
+  },
+  {
+    "id": "294588eb",
+    "category": "instruction_following",
+    "instruction": "List two ways to save water at home.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Make sure to use a water-efficient source of water. \n2. Use an anti-bacterial and anti-bacterial soap and water. \n3. Use reusable bottles and reusable water bottles to keep water at home. \n4. Keep cooking in a pot or"
+  }
+]

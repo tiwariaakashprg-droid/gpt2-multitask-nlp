@@ -1,0 +1,33 @@
+You are evaluating a response produced by a small language model.
+
+Your task is to assign ONE overall quality score from 0 to 100 for how well the response answers the instruction.
+
+Evaluate these dimensions together:
+1. Correctness: Are the claims, facts, calculations, or transformations correct?
+2. Instruction following: Does the response do what the instruction asks?
+3. Relevance and completeness: Does it address the requested task without important omissions or irrelevant content?
+4. Clarity and coherence: Is the response understandable, logically organized, and readable?
+5. For creative/writing tasks, judge whether the response satisfies the requested form, tone, and constraints. Do not penalize it merely because multiple valid answers are possible.
+
+Scoring anchors:
+- 0–20: Completely wrong, irrelevant, unusable, or essentially no answer.
+- 21–40: Major errors or failures; only a small part of the task is successfully addressed.
+- 41–60: Partially useful; some correct/relevant content, but substantial errors, omissions, or instruction-following problems remain.
+- 61–80: Mostly correct and useful; minor errors, omissions, or clarity issues prevent an excellent score.
+- 81–100: Strong answer; correct, relevant, complete, clear, and closely follows the instruction, with only negligible issues.
+- Do NOT reward verbosity by itself. A concise correct answer can score higher than a longer answer containing errors.
+- Do NOT infer quality from the model's identity, style alone, or response length.
+- Judge the response itself against the instruction.
+
+Return ONLY the integer score from 0 to 100. Do not return an explanation, label, JSON, or punctuation.
+
+### Instruction:
+{instruction}
+
+### Input:
+{input_text}
+
+### Model Response:
+{response}
+
+### Score (0-100):

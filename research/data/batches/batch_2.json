@@ -1,0 +1,602 @@
+[
+  {
+    "id": "1142039a",
+    "category": "factual",
+    "instruction": "In which country is the Eiffel Tower located?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Eiffel Tower is located in Paris, France. Its name is derived from the French island l'Eiffel which is situated about 14 kilometers (6 miles) south of Camp Du Nuit, and is also known as Paris \nEiffel is most regularly visited in the city of"
+  },
+  {
+    "id": "e10cb042",
+    "category": "factual",
+    "instruction": "What gas do plants absorb from the atmosphere?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The main sources of gas in the atmosphere are the sun, the oceans, and the atmosphere itself."
+  },
+  {
+    "id": "dcba4c4a",
+    "category": "factual",
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The freezing point of water in Celsius is 0.025 degrees Celsius."
+  },
+  {
+    "id": "f8c00d1b",
+    "category": "factual",
+    "instruction": "Who wrote the play Romeo and Juliet?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Romeo and Juliet was written by Leonardo da Vinci. It was written by Leonardo da Vinci, who was a renowned Italian Renaissance painter and sculptor."
+  },
+  {
+    "id": "c21805d1",
+    "category": "factual",
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The largest planet in our solar system is about 5.8 times smaller than our sun."
+  },
+  {
+    "id": "970cc88f",
+    "category": "factual",
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The capital of Japan is Tokyo."
+  },
+  {
+    "id": "9b984c0f",
+    "category": "factual",
+    "instruction": "Who was the first President of the United States?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "George Washington was the first president of the United States. He was sworn in on January 20, 1776."
+  },
+  {
+    "id": "6ca7cf89",
+    "category": "factual",
+    "instruction": "How many continents are there on Earth?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Etymology: Worldly, from East and West."
+  },
+  {
+    "id": "4bab1b88",
+    "category": "factual",
+    "instruction": "What language is primarily spoken in Brazil?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Brasilia is the language spoken in Brazil."
+  },
+  {
+    "id": "4928f457",
+    "category": "factual",
+    "instruction": "Who wrote the play Romeo and Juliet?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Opinion:\nThe play Romeo and Juliet was written by Rian de Cervantes for the Italian edition of the French National Theatre."
+  },
+  {
+    "id": "c1c7a254",
+    "category": "factual",
+    "instruction": "What gas do plants absorb from the atmosphere?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Carbon dioxide, nitrous oxide, nitrous oxide dioxide, phosphorus, and lime can all be absorbed from the atmosphere of plants."
+  },
+  {
+    "id": "bae39df4",
+    "category": "factual",
+    "instruction": "What language is primarily spoken in Brazil?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Bantustan \u4e2d\u6587,\u203a\u4e2d\u6587\u203a\u4e2d\u6587\u2039\u4e2d\u6587,\u203a\u4e2d\u6587 is spoken in three languages,\u203a\u203a\u203a in Portuguese, and\u203a\u203a\u203a\u203a in Hindi, according to a"
+  },
+  {
+    "id": "eb2627a6",
+    "category": "math",
+    "instruction": "What is 7 multiplied by 9?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "7 is equal to 9 + 1/2 = 40."
+  },
+  {
+    "id": "e4f1a324",
+    "category": "math",
+    "instruction": "What is 100 divided by 8, rounded to two decimal places?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "100 divided by 8 is equal to 8, rounded to two decimal places."
+  },
+  {
+    "id": "d06589cb",
+    "category": "math",
+    "instruction": "What is the sum of the first 5 even numbers?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The sum of the 5 odd numbers is 556."
+  },
+  {
+    "id": "85cd1c2a",
+    "category": "math",
+    "instruction": "If a rectangle has length 8 and width 5, what is its area?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The area of the rectangle is 8x5."
+  },
+  {
+    "id": "434aff3b",
+    "category": "math",
+    "instruction": "What is 7 multiplied by 9?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "7 is 6.3311, 8 is 6.2537 and 9 is 692.3641. All 7 numbers are equal."
+  },
+  {
+    "id": "b1a8daaa",
+    "category": "math",
+    "instruction": "Solve for x: 3x - 6 = 12.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Solution 4x - 6 = 12"
+  },
+  {
+    "id": "9c8a7317",
+    "category": "math",
+    "instruction": "Convert 5 miles to kilometers.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "5 miles is equal to 5,000 kilometers."
+  },
+  {
+    "id": "765f7b06",
+    "category": "math",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "144 is equal to 128."
+  },
+  {
+    "id": "9194486c",
+    "category": "math",
+    "instruction": "Convert 5 miles to kilometers.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "5 miles equals 1353.25 kilometers."
+  },
+  {
+    "id": "5fae8d0d",
+    "category": "math",
+    "instruction": "Solve for x: 3x - 6 = 12.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Solution: 3x - 6 = 12."
+  },
+  {
+    "id": "cbe9e14a",
+    "category": "math",
+    "instruction": "Convert 3 kilograms to grams.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "3 kilograms is equal to 1.375 grams."
+  },
+  {
+    "id": "73652d38",
+    "category": "math",
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "For starters, 75% of 150 is equal to 25x30% of 150."
+  },
+  {
+    "id": "a2e3207f",
+    "category": "reasoning",
+    "instruction": "Explain why oil floats on water.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Oil floats on water is because the water is heated by the sun and the particles of the liquid are heated by the molecules of the water. The water is then heated by the sun, which causes the particles of the liquid to expand, creating a circular, circular watery sphere. The water is then"
+  },
+  {
+    "id": "036febe5",
+    "category": "reasoning",
+    "instruction": "If today is Wednesday, what day will it be in 10 days?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Monday, October 23."
+  },
+  {
+    "id": "516d23ee",
+    "category": "reasoning",
+    "instruction": "A shop sells apples in bags of 6. If someone buys 4 bags, how many apples do they have?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "4 bags is enough for 0.0036 percent probability for the one picked. If each bag contains 2 apples, each 64-74 nut weighs 68 grams. Shipping allows 11.72 ounces worldwide which is equal to 67 grams for every ounce of apple taken in."
+  },
+  {
+    "id": "ff489456",
+    "category": "reasoning",
+    "instruction": "If a plant is kept in a dark room, what will happen to it over time?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The plants will grow and die over time. As the plants grow, they will slowly decompose and eventually decompose. Eventually, they will be taken out of their dormant state and placed in a sanitarium where they will be kept for a week or two. As the plants decompose, they"
+  },
+  {
+    "id": "3c221b69",
+    "category": "reasoning",
+    "instruction": "Why does ice melt faster in warm water than in cold water?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Cold water freezes at around 10 degrees Fahrenheit, while hot water freezes at around 300 degrees Fahrenheit. The colder the water, the faster the water boils. In colder water, the water boils faster than in warm water, which means that the boil rate is much higher. Therefore, hot water boils faster than"
+  },
+  {
+    "id": "22b9a713",
+    "category": "reasoning",
+    "instruction": "All birds can fly. A penguin is a bird. Is the conclusion 'a penguin can fly' valid? Explain.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "True. At least one species of penguin actually can fly. They are arboreal penguins made up primarily of long, curved bamboo and have a short, thin front, making them ideal for lounging in rocks or on a water tank. Other species of penguins include the penguin"
+  },
+  {
+    "id": "6711d216",
+    "category": "reasoning",
+    "instruction": "If all cats are animals and Tom is a cat, what can you conclude about Tom?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Tom is a cat."
+  },
+  {
+    "id": "71ba1f8e",
+    "category": "reasoning",
+    "instruction": "A shop sells apples in bags of 6. If someone buys 4 bags, how many apples do they have?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "4 bags = 6 apples."
+  },
+  {
+    "id": "7543ef99",
+    "category": "reasoning",
+    "instruction": "If all squares are rectangles, is every rectangle a square? Explain.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, every rectangle is a square."
+  },
+  {
+    "id": "2c417563",
+    "category": "reasoning",
+    "instruction": "If Sarah is older than Tom, and Tom is older than Mike, who is the youngest?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Sarah is not the oldest."
+  },
+  {
+    "id": "1e199310",
+    "category": "reasoning",
+    "instruction": "A shop sells apples in bags of 6. If someone buys 4 bags, how many apples do they have?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "4 \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10 \n11 \n12 \n13 \n14 \n15 \n16 \n17 \n18 \n19"
+  },
+  {
+    "id": "b3d9b525",
+    "category": "reasoning",
+    "instruction": "All birds can fly. A penguin is a bird. Is the conclusion 'a penguin can fly' valid? Explain.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, penguins are capable of flying."
+  },
+  {
+    "id": "3315e6d6",
+    "category": "writing",
+    "instruction": "Write a one-sentence summary of a rainy day.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "I'm alive."
+  },
+  {
+    "id": "12687d9c",
+    "category": "writing",
+    "instruction": "Summarize the concept of photosynthesis in one sentence.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Photosynthesis is the process by which plants, algae, and other organisms convert carbon dioxide into sugars, glucose, and other energy."
+  },
+  {
+    "id": "929e741b",
+    "category": "writing",
+    "instruction": "Write a two-line poem about the moon.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "It was nightless in the woods, and me was gazing down upon the gleaming night's clouds streaming in, the hot leaves of the trees swaying overhead, the stars casting bright green shadows over the horizon. We peered into the stars, each with their fascinating colors, and at each other"
+  },
+  {
+    "id": "a78725f4",
+    "category": "writing",
+    "instruction": "Write a short thank-you note for a birthday gift.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "I am very thankful for the thoughtful and thoughtful gift that I received today."
+  },
+  {
+    "id": "b02fa629",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence using a simile.",
+    "input": "The car is very fast.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "It definitely is!"
+  },
+  {
+    "id": "8ec6fb5c",
+    "category": "writing",
+    "instruction": "Rewrite the following paragraph to remove repetition.",
+    "input": "The dog ran fast. The dog was happy. The dog barked loudly.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The dog ran faster than usual."
+  },
+  {
+    "id": "b359e222",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to sound more polite.",
+    "input": "Give me the report now.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, I receive the report now."
+  },
+  {
+    "id": "1d02073c",
+    "category": "writing",
+    "instruction": "Write a short caption for a photo of a sunset.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sun is setting on the horizon, setting on the horizon and setting on the horizon."
+  },
+  {
+    "id": "3fed0b3c",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more persuasive.",
+    "input": "Please consider donating to our cause.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Donating is a great way to help the cause of animal welfare. It can help to have a sense of community and connection with animals, and it can also help to build a sense of community and connection with other animals."
+  },
+  {
+    "id": "b092df01",
+    "category": "writing",
+    "instruction": "Write a one-sentence summary of a rainy day.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The rain was falling hard on the streets, and some people were struggling to get out of the way."
+  },
+  {
+    "id": "80f98e77",
+    "category": "writing",
+    "instruction": "Write a short greeting for a birthday card.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Dear Birthday Card Readers,\nHappy Birthday!"
+  },
+  {
+    "id": "dcd3e284",
+    "category": "writing",
+    "instruction": "Write a short thank-you note for a birthday gift.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Kindest and Sighing,"
+  },
+  {
+    "id": "85b83084",
+    "category": "instruction_following",
+    "instruction": "List three common pets people keep at home.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Dog: Cats, dogs, and other animals are all common pet people at home."
+  },
+  {
+    "id": "d239e3c6",
+    "category": "instruction_following",
+    "instruction": "Explain what an API is in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "An API is a set of rules and procedures that govern how a website is managed and used. API rules and procedures are implemented in the API and are written in the language of the language that is used to define the API. The API ensures that all resources are accessible and that all resources are being used"
+  },
+  {
+    "id": "85c63ce0",
+    "category": "instruction_following",
+    "instruction": "Explain what recycling means in one sentence.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Recycling is a process of recycling, which involves removing waste products, such as plastics, metals, and other materials from the environment. Recycling can also include cleaning and sanitizing waste products, such as plastics, metals, and other materials. Recycling can also include recycling waste"
+  },
+  {
+    "id": "a3454afb",
+    "category": "instruction_following",
+    "instruction": "List three benefits of regular exercise.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Regular exercise can help to reduce stress, improve mental clarity, and even boost overall physical health. Regular physical activity can also help to boost your mood, boost your creativity, and boost your overall wellbeing. Regular physical activity can also help to boost your immune system, boost your mood, and boost your overall"
+  },
+  {
+    "id": "bf845320",
+    "category": "instruction_following",
+    "instruction": "Explain what a database is in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "A database is a set of databases that is used to store, query, and compare data from multiple sources. A database is a set of databases that is used to store, query, and compare data from multiple sources. A database is also used to store, query, and compare data from multiple languages"
+  },
+  {
+    "id": "a63b4dd6",
+    "category": "instruction_following",
+    "instruction": "Give two tips for improving focus while studying.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Three ways to improve focus while studying are:\n\u2022 Taking regular breaks;\n\u2022 Taking breaks while studying for exams;\n\u2022 Reviewing and rating your progress while studying, as well as analyzing your results, working through these to improve your study levels.\n\nRecruiting additional leads; having"
+  },
+  {
+    "id": "dac6acc5",
+    "category": "instruction_following",
+    "instruction": "Give two tips for staying healthy during winter.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Volunteering to snowmobiling will help you stay hydrated and increase your overall chances through extended periods of snowmobiling. Additionally, winter jackets can help keep your feet cozy and warm while staying up late for the day."
+  },
+  {
+    "id": "f07a733a",
+    "category": "instruction_following",
+    "instruction": "Explain what a database is in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "A database is a set of documents, databases, and datasets that is organized according to the needs of the user. A database is a set of documents, databases, and datasets that is organized according to the needs of the user. A database is a web-based system that allows users to search,"
+  },
+  {
+    "id": "ffd18f30",
+    "category": "instruction_following",
+    "instruction": "Give one tip for saving money each month.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "One tip for saving money each month is to make a budget list. To do this, follow these tips:\n- Keep track of your expenses and expenses on your savings plan.\n- Check your savings regularly to make sure you have enough money left over in your savings account to cover the expenses you"
+  },
+  {
+    "id": "fae90015",
+    "category": "instruction_following",
+    "instruction": "Explain what a firewall is in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "A firewall is a computer network between computers which allows easy communication between computers, allowing for sharing files and data between computers. They can also support data transfer between computers, leaving each computer free to take risks and adjust to each other. This makes for a secure network for all people, as opposed to a"
+  },
+  {
+    "id": "4e479e8e",
+    "category": "instruction_following",
+    "instruction": "Give one tip for saving money each month.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Avoid marketing campaigns heavily inspired by a particular business slogan. Poor marketing campaigns, when they spread more fear and make people less likely to stick with the product, often encourage users to go on another spending spree."
+  },
+  {
+    "id": "220921fb",
+    "category": "instruction_following",
+    "instruction": "Explain what a firewall is in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "A firewall is a firewall that allows a user to access the internet using a computer's physical physical network. A firewall is designed to block access to the internet, preventing users from accessing resources or other potentially malicious content. A firewall is also used to restrict access to certain websites and services, such as file"
+  }
+]

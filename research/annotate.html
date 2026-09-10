@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Model Output Annotation Tool</title>
+<style>
+  :root {
+    --bg: #faf9f7; --card: #ffffff; --ink: #1f1f1f; --muted: #6b6b6b;
+    --accent: #c15f3c; --border: #e6e2dc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; padding: 24px;
+    display: flex; justify-content: center;
+  }
+  .wrap { max-width: 680px; width: 100%; }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  .sub { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px; margin-bottom: 16px;
+  }
+  label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 6px; font-weight: 600; }
+  input[type=text], input[type=file], input[type=number] {
+    width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px;
+    font-size: 14px; margin-bottom: 14px;
+  }
+  .qtext { font-size: 15px; font-weight: 600; margin-bottom: 10px; line-height: 1.5; }
+  .atext {
+    background: #f4f1ec; border-radius: 8px; padding: 14px; font-size: 14px;
+    line-height: 1.6; white-space: pre-wrap; margin-bottom: 16px; border: 1px solid var(--border);
+  }
+  .meta { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+  .score-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  input[type=range] { flex: 1; }
+  .score-value { font-size: 22px; font-weight: 700; width: 50px; text-align: center; color: var(--accent); }
+  button {
+    background: var(--accent); color: white; border: none; border-radius: 8px;
+    padding: 12px 20px; font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  button:hover { opacity: 0.9; }
+  button:disabled { background: #ccc; cursor: not-allowed; }
+  .progress { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+  .bar { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; margin-bottom: 20px; }
+  .bar-fill { height: 100%; background: var(--accent); transition: width 0.2s; }
+  .hidden { display: none; }
+  .footer-note { font-size: 12px; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Model Output Annotation Tool</h1>
+  <div class="sub">Rate each response 0 (completely wrong / useless) to 100 (perfect answer).</div>
+
+  <!-- SETUP SCREEN -->
+  <div class="card" id="setup-screen">
+    <label>Anonymous annotator ID (used only to label your ratings)</label>
+    <input type="text" id="annotator-name" placeholder="e.g. annotator_01">
+
+    <label>Load the qa_pairs.json file (given to you by the researcher)</label>
+    <input type="file" id="file-input" accept=".json">
+
+    <button id="start-btn" disabled>Start annotating</button>
+    <div class="footer-note">Nothing is uploaded anywhere — everything stays in this browser tab until you click "Download my ratings" at the end.</div>
+  </div>
+
+  <!-- ANNOTATION SCREEN -->
+  <div class="card hidden" id="annotate-screen">
+    <div class="progress" id="progress-text">Item 1 of N</div>
+    <div class="bar"><div class="bar-fill" id="progress-bar" style="width:0%"></div></div>
+
+    <div class="qtext" id="q-instruction"></div>
+    <div class="meta" id="q-input-meta"></div>
+    <div class="atext" id="q-output"></div>
+
+    <label>Score (0 = wrong/useless &nbsp;—&nbsp; 100 = perfect)</label>
+    <div class="score-row">
+      <input type="range" id="score-slider" min="0" max="100" value="50">
+      <div class="score-value" id="score-value">50</div>
+    </div>
+
+    <button id="next-btn">Submit &amp; Next →</button>
+  </div>
+
+  <!-- DONE SCREEN -->
+  <div class="card hidden" id="done-screen">
+    <div class="qtext">All done — thank you! 🎉</div>
+    <div class="sub">Click below to download your ratings file, then send it back to the researcher.</div>
+    <button id="download-btn">Download my ratings (.json)</button>
+  </div>
+</div>
+
+<script>
+let items = [];
+let annotatorName = "";
+let currentIndex = 0;
+let ratings = [];
+
+const setupScreen = document.getElementById('setup-screen');
+const annotateScreen = document.getElementById('annotate-screen');
+const doneScreen = document.getElementById('done-screen');
+const nameInput = document.getElementById('annotator-name');
+const fileInput = document.getElementById('file-input');
+const startBtn = document.getElementById('start-btn');
+
+function checkReady() {
+  startBtn.disabled = !(nameInput.value.trim().length > 0 && items.length > 0);
+}
+nameInput.addEventListener('input', checkReady);
+
+fileInput.addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (evt) => {
+    try {
+      items = JSON.parse(evt.target.result);
+      // shuffle presentation order per annotator to reduce order bias,
+      // but keep original ids so results can be merged later
+      items = items.map(x => x).sort(() => Math.random() - 0.5);
+      checkReady();
+    } catch (err) {
+      alert("Could not parse that file as JSON: " + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
+
+startBtn.addEventListener('click', () => {
+  annotatorName = nameInput.value.trim();
+  setupScreen.classList.add('hidden');
+  annotateScreen.classList.remove('hidden');
+  showItem(0);
+});
+
+const slider = document.getElementById('score-slider');
+const scoreValue = document.getElementById('score-value');
+slider.addEventListener('input', () => { scoreValue.textContent = slider.value; });
+
+function showItem(idx) {
+  const item = items[idx];
+  document.getElementById('progress-text').textContent = `Item ${idx + 1} of ${items.length}`;
+  document.getElementById('progress-bar').style.width = `${(idx / items.length) * 100}%`;
+  document.getElementById('q-instruction').textContent = item.instruction;
+  document.getElementById('q-input-meta').textContent = item.input ? `Input: ${item.input}` : '';
+  document.getElementById('q-output').textContent = item.model_output || '(empty response)';
+  slider.value = 50;
+  scoreValue.textContent = "50";
+}
+
+document.getElementById('next-btn').addEventListener('click', () => {
+  const item = items[currentIndex];
+  ratings.push({
+    id: item.id,
+    annotator: annotatorName,
+    score: parseInt(slider.value, 10)
+  });
+  currentIndex++;
+  if (currentIndex < items.length) {
+    showItem(currentIndex);
+  } else {
+    document.getElementById('progress-bar').style.width = `100%`;
+    annotateScreen.classList.add('hidden');
+    doneScreen.classList.remove('hidden');
+  }
+});
+
+document.getElementById('download-btn').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(ratings, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const safeName = annotatorName.replace(/[^a-z0-9_]/gi, '_').toLowerCase();
+  a.href = url;
+  a.download = `annotations_${safeName}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+});
+</script>
+</body>
+</html>

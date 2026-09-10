@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Rewrite the sentence using a simile.",
+    "input": "The car is very fast.",
+    "output": "The car is as fast as lightning."
+  },
+  {
+    "instruction": "What is the capital of France?",
+    "input": "",
+    "output": "The capital of France is Paris."
+  },
+  {
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "output": "10 kilometers is approximately 6.21 miles."
+  }
+]

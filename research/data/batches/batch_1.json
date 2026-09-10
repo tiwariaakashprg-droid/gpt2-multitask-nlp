@@ -1,0 +1,602 @@
+[
+  {
+    "id": "26e8d3f0",
+    "category": "factual",
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The freezing point of water can vary widely depending on individual country. Caves of varying temperatures in several countries can be traced to tiny lakes frozen in frozen ice near the equator, and lakes near the poles can generally freeze to near-freezing temperatures. Even the coldest regions of the sun have"
+  },
+  {
+    "id": "d4f12a2c",
+    "category": "factual",
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The gold symbol is the symbol for \"gold,\" meaning peace and understanding."
+  },
+  {
+    "id": "64cc4228",
+    "category": "factual",
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The largest planet in our solar system is the Sun."
+  },
+  {
+    "id": "e88aa8f8",
+    "category": "factual",
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Capital of Australia is 10,848,848."
+  },
+  {
+    "id": "06f08f36",
+    "category": "factual",
+    "instruction": "Who was the first President of the United States?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Lincoln was the first President of the United States, who was one of the most influential and creative men in modern American history. He pushed the boundaries of what could be done in a given country, and encouraged Americans to interact with each other in times of need. He served as a national treasure for"
+  },
+  {
+    "id": "aab53612",
+    "category": "factual",
+    "instruction": "What is the currency of Japan?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Japanese yen is the national currency of Japan."
+  },
+  {
+    "id": "eaa02aa1",
+    "category": "factual",
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The chemical symbol for gold is the Sulfur Dioxide symbol."
+  },
+  {
+    "id": "994c09a0",
+    "category": "factual",
+    "instruction": "What is the largest ocean on Earth?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The largest ocean on Earth is the Gulf of Mexico, which is about 1,500 miles (2,500 kilometers) long."
+  },
+  {
+    "id": "fd0ed9f0",
+    "category": "factual",
+    "instruction": "What is the largest ocean on Earth?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The largest ocean on Earth is the Atacama Desert in the Pacific Ocean, about 16,000 km2 (12,000 miles) off the coast of the U.S."
+  },
+  {
+    "id": "dc6739f9",
+    "category": "factual",
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The freezing point of water in Celsius is 2.6 degrees Celsius, or 126.5 degrees Fahrenheit."
+  },
+  {
+    "id": "0cd5b4b7",
+    "category": "factual",
+    "instruction": "What is the boiling point of water in Celsius?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The boiling point of water in Celsius is 0.025 degrees Celsius."
+  },
+  {
+    "id": "91ee6978",
+    "category": "factual",
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Artificial Intelligence (AI) is a field of applied artificial intelligence that enables machines to extract and interpret insights from an existing world. For example, by analyzing data and understanding its causes, AI can predict what actions are likely to be taken by a particular person at any given moment and create strategies and scenarios"
+  },
+  {
+    "id": "d62dc062",
+    "category": "math",
+    "instruction": "Convert 2 hours into minutes.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "2 hours is equal to 12 minutes."
+  },
+  {
+    "id": "b7b6c3a3",
+    "category": "math",
+    "instruction": "Convert 5 miles to kilometers.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "5 miles is equal to 1.2 kilometers."
+  },
+  {
+    "id": "64078af0",
+    "category": "math",
+    "instruction": "What is 7 multiplied by 9?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "7 is equal to 9 + 1."
+  },
+  {
+    "id": "6c091e8f",
+    "category": "math",
+    "instruction": "If a rectangle has length 8 and width 5, what is its area?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The area of the rectangle is 8.5x5."
+  },
+  {
+    "id": "0c9bba3a",
+    "category": "math",
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "10 kilometers is equal to 848,872,552 miles."
+  },
+  {
+    "id": "fc909d22",
+    "category": "math",
+    "instruction": "Solve for x: 5x = 45.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "3x = 1272."
+  },
+  {
+    "id": "04da400d",
+    "category": "math",
+    "instruction": "What is the perimeter of a square with side length 6?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The perimeter of a square with side length 6 is 8 inches."
+  },
+  {
+    "id": "06dacd16",
+    "category": "math",
+    "instruction": "What is 25% of 400?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "25% of 400 is equal to 25,000 nuclear weapons."
+  },
+  {
+    "id": "4c6bd5c5",
+    "category": "math",
+    "instruction": "If a rectangle has length 8 and width 5, what is its area?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Area is the square between the inner half of the rectangle and the perimeter lines."
+  },
+  {
+    "id": "3ee2d173",
+    "category": "math",
+    "instruction": "What is 15% of 200?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "For the purposes of 15% of 200, four factors are: body mass index (BMI) + body mass index (BMI) + muscle density (BMD) + waist circumference and obesity."
+  },
+  {
+    "id": "80c02411",
+    "category": "math",
+    "instruction": "What is 15% of 200?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "15% of 200 is equal to 1,200,000 points."
+  },
+  {
+    "id": "c1debf1b",
+    "category": "math",
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "30% of 150 represents approximately 0.6% of the total number of employees in the United States, which is equal to about 2.33 million people."
+  },
+  {
+    "id": "3c997cfe",
+    "category": "reasoning",
+    "instruction": "Why do we need to wear seatbelts in a moving car?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The most important thing to consider when buying a car is safety. The average person needs to regularly check their car for safety issues and make sure it is in good condition before purchasing. Additionally, it is important to have a safe and secure transportation system in place to safeguard your car when travelling. You should"
+  },
+  {
+    "id": "be5574f8",
+    "category": "reasoning",
+    "instruction": "A train leaves at 3 PM and arrives at 6 PM. How long was the journey?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The journey from Paris to London took around 12 hours."
+  },
+  {
+    "id": "1c74349f",
+    "category": "reasoning",
+    "instruction": "If all cats are animals and Tom is a cat, what can you conclude about Tom?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "He is an amazing animal, with a loving and friendly personality. He is intelligent, energetic and is always smiling. He loves to maul people. He has a bright and bubbly personality, with a strong sense of humor, and is always smiling. He is also an excellent cook, making him"
+  },
+  {
+    "id": "17ad171d",
+    "category": "reasoning",
+    "instruction": "Two trains start from the same station in opposite directions. How would you calculate the distance between them after 2 hours?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Distance between trains is based on the distance between them, not the time it takes for them to reach each other."
+  },
+  {
+    "id": "f24a8b68",
+    "category": "reasoning",
+    "instruction": "Why do we need to wear seatbelts in a moving car?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "It is essential to wear seatbelts in a moving car to maintain safety and comfort. They can help to reduce stress and reduce the amount of time in the car. Additionally, they can help to reduce weight, reduce fatigue, and help to reduce the risk of injury."
+  },
+  {
+    "id": "d12abd6f",
+    "category": "reasoning",
+    "instruction": "Explain why oil floats on water.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Oils float on water are a result of the sun's rays being absorbed into the water. As the water cools, its energy is released and it's no longer as hot as it once was. This helps to cool the water, which in turn helps to create cooler air in the ocean."
+  },
+  {
+    "id": "43042cf8",
+    "category": "reasoning",
+    "instruction": "If today is Wednesday, what day will it be in 10 days?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "10 days is equal to 10 days in 10 years."
+  },
+  {
+    "id": "74599c1d",
+    "category": "reasoning",
+    "instruction": "A car travels 60 miles in 1 hour. How far will it travel in 3 hours at the same speed?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The car will travel in 3 hours at the same speed as the average person."
+  },
+  {
+    "id": "0c4f7de7",
+    "category": "reasoning",
+    "instruction": "Explain why ice floats on water.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "It is an ancient and reliable practice to place ice cubes on the shoreline of a pool or on the shoreline of the shoreline of a vessel when it is cold, as it will help the water to cool. This helps to maintain the buoyancy of the water and helps keep it warm while"
+  },
+  {
+    "id": "25f73f85",
+    "category": "reasoning",
+    "instruction": "A farmer has 3 chickens and buys 5 more. How many chickens does he have now?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Three chickens is plenty. He still needs to buy more."
+  },
+  {
+    "id": "0ed9123b",
+    "category": "reasoning",
+    "instruction": "If today is Wednesday, what day will it be in 10 days?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The 8th day of January could never be the same, but it is definitely early in the month giving chances to find peace of mind and relaxation before the sun sets on Wednesday. Enjoy it and be cheerful throughout!"
+  },
+  {
+    "id": "aa516c98",
+    "category": "reasoning",
+    "instruction": "Explain why oil floats on water.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Oil floats on water are due to a combination of low surface tension (R tension) in the water that prevents it from reaching the surface or breaking easily. Low temperatures during the day can create a high area around the water which breaks up the oil molecules. Therefore the surface tension of the water helps to"
+  },
+  {
+    "id": "07c05104",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more persuasive.",
+    "input": "Please consider donating to our cause.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Giving helps. It can mean literally more to help maintain family and education in the community."
+  },
+  {
+    "id": "96649c3e",
+    "category": "writing",
+    "instruction": "Write a short congratulatory message for a graduation.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Dear Graduation,\n\nMy name is Aaron and I am thrilled to be living a fulfilling and rewarding life. I look forward to continuing my education and pursuing my dream of a better life for all."
+  },
+  {
+    "id": "45aa6d73",
+    "category": "writing",
+    "instruction": "Write a one-sentence summary of a rainy day.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "It was a sunny day in the city, with the sun setting on the horizon and the wind blowing slowly in the direction of the city. A few blocks away, a group of people were gathering around a campfire, eager to experience the sights and sounds of nature. As they settled in, the"
+  },
+  {
+    "id": "ab21ba68",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to sound more polite.",
+    "input": "Give me the report now.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Treat each case like it is important to know the facts and can be improved upon."
+  },
+  {
+    "id": "56e71ba3",
+    "category": "writing",
+    "instruction": "Rewrite the following paragraph to remove repetition.",
+    "input": "The dog ran fast. The dog was happy. The dog barked loudly.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The answer is, \"The dog ran fast.\" It's interesting to note that it was followed by three individual calls per second. We also have two sets of numbers representing the rate of run speed (a measure of progress), and we can also use our own experience to compare and contrast on this basis"
+  },
+  {
+    "id": "25748465",
+    "category": "writing",
+    "instruction": "Write a short congratulatory message for a graduation.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I am so excited to be graduating from college this year. I am so grateful for the opportunity to be part of something so special. I look forward to continuing to learn and grow as I strive to become a better person. Thank you for your continued support and encouragement."
+  },
+  {
+    "id": "ce470cf4",
+    "category": "writing",
+    "instruction": "Write a short thank-you note for a birthday gift.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I'm so grateful for all the memories you have with me. I can't express how much I miss you."
+  },
+  {
+    "id": "937bc4dd",
+    "category": "writing",
+    "instruction": "Write a two-line poem about the moon.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The moon shines bright and clear,\nThe stars twinkling in the night.\nThe moon is like a beacon of light,\nThe stars gleaming in the night."
+  },
+  {
+    "id": "ea7d4001",
+    "category": "writing",
+    "instruction": "Rewrite this sentence using a metaphor.",
+    "input": "She was very happy.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "She was very happy."
+  },
+  {
+    "id": "9326123b",
+    "category": "writing",
+    "instruction": "Write a short description of a busy city street.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "One of the most historic cities in southern California is Humboldt City. Orchid flower patches weave through the streets every morning, which, if not adequately photographed, make for an unpredictable entertainment environment, helping create a warm sense of being alive in a city with a long-forgotten past."
+  },
+  {
+    "id": "59434c49",
+    "category": "writing",
+    "instruction": "Write a short farewell message for a coworker leaving the company.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "I'm so happy to be here and I can't thank you enough. I'm so grateful for the opportunity to work with you and I can't wait to start making the most of it."
+  },
+  {
+    "id": "f6744dc0",
+    "category": "writing",
+    "instruction": "Write a short farewell message for a coworker leaving the company.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Collaborative Creativity is a feeling I like to carry with me wherever I go. I look forward to continuing this craft with teammates and colleagues."
+  },
+  {
+    "id": "06323687",
+    "category": "instruction_following",
+    "instruction": "Explain what an API is in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "An API refers to a set of algorithms and mechanisms that facilitate software development. Typically, a system uses the API to access and build services that are typically not available at a website and, at the end of the day, that services are not used. The API allows developers to build online services that are"
+  },
+  {
+    "id": "0082f9d2",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'please' into Japanese.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Please be kind."
+  },
+  {
+    "id": "a72dc824",
+    "category": "instruction_following",
+    "instruction": "Explain what cloud storage means in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Cloud storage is a service that enables users to store their data in a secure and reliable manner. It is used to store data in a secure and reliable manner that is optimized for security and compatibility. Through cloud storage, users can access and access their data anywhere and anytime. Customers can access and access their"
+  },
+  {
+    "id": "4c0e5809",
+    "category": "instruction_following",
+    "instruction": "List three ingredients commonly used in an Italian pasta dish.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Freshly ground beef, seasoned with olive oil and Parmesan."
+  },
+  {
+    "id": "6261ff10",
+    "category": "instruction_following",
+    "instruction": "Name two benefits of reading books regularly.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Reading books regularly can help you stay motivated, increase your self-confidence, and boost your self-esteem. It can also help you to stay motivated and build self-confidence."
+  },
+  {
+    "id": "97387254",
+    "category": "instruction_following",
+    "instruction": "Explain what cloud storage means in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Cloud storage is a service that allows users to store and access their data on a cloud-based storage platform. Cloud storage is used to store and access data on a cloud-based storage platform, which allows users to access and manage their data on a cloud-based storage platform. Cloud storage is used"
+  },
+  {
+    "id": "110d04c5",
+    "category": "instruction_following",
+    "instruction": "Name three colors that are found in a rainbow.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Eyes, Hair, Clothing, Hair"
+  },
+  {
+    "id": "16b3803b",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'thank you' into Spanish.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Thank you for your support."
+  },
+  {
+    "id": "9b499f68",
+    "category": "instruction_following",
+    "instruction": "List three common pets people keep at home.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Dog"
+  },
+  {
+    "id": "48dab88c",
+    "category": "instruction_following",
+    "instruction": "List three ingredients commonly used in an Italian pasta dish.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Italian pasta is made with vegetables, pasta, pasta sauce, and garlic."
+  },
+  {
+    "id": "e389e672",
+    "category": "instruction_following",
+    "instruction": "Name two benefits of reading books regularly.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Reads have a calming effect on your life, helping you focus and get things done. They also improve your spatial awareness as you progress through books, reduce anxiety while reading or talking, and strengthen your sense of self-worth."
+  },
+  {
+    "id": "5c0e3be4",
+    "category": "instruction_following",
+    "instruction": "Name two famous landmarks in Europe.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Stadt-Etienne and the Stadt-Etienne Bridge."
+  }
+]

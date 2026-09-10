@@ -1,0 +1,602 @@
+[
+  {
+    "id": "223973a9",
+    "category": "factual",
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The largest planet seen in our Solar System is about 22,700 kilometers (14,560 miles) from Earth."
+  },
+  {
+    "id": "74768135",
+    "category": "factual",
+    "instruction": "How many continents are there on Earth?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "There are approximately 8,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000"
+  },
+  {
+    "id": "a5201026",
+    "category": "factual",
+    "instruction": "What language is primarily spoken in Brazil?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Bengo is spoken in Brazil by about 8.5% of the population."
+  },
+  {
+    "id": "78354c00",
+    "category": "factual",
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Australian Capital Territory"
+  },
+  {
+    "id": "e648d6e1",
+    "category": "factual",
+    "instruction": "In which country is the Eiffel Tower located?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Eiffel Tower is located in the French-speaking kingdom of France."
+  },
+  {
+    "id": "e8aade90",
+    "category": "factual",
+    "instruction": "What is the currency of Japan?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Japanese yen is the legal tender of the Japanese yen."
+  },
+  {
+    "id": "bdde0259",
+    "category": "factual",
+    "instruction": "What is the currency of Japan?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The Japanese yen is the British Pound Digital Dollar."
+  },
+  {
+    "id": "575efa0b",
+    "category": "factual",
+    "instruction": "What is the tallest mountain in the world?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The tallest mountain in the world is 1236 meters (350 m) high by 711 meters (807 ft)."
+  },
+  {
+    "id": "85930be4",
+    "category": "factual",
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The Japanese capital of Japan is Sapporo."
+  },
+  {
+    "id": "9a10b9d4",
+    "category": "factual",
+    "instruction": "Who wrote the novel Pride and Prejudice?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The novel Pride and Prejudice is written by John C. L. Brooks."
+  },
+  {
+    "id": "5a7f0a33",
+    "category": "factual",
+    "instruction": "What is the largest ocean on Earth?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The largest ocean on Earth is the Hapta system, with depth estimated at 8,100 kilometers (764 miles) above the ocean surface."
+  },
+  {
+    "id": "7c07ba03",
+    "category": "factual",
+    "instruction": "What is the boiling point of water in Celsius?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The boiling point of water in Celsius is 0.74 degrees Celsius."
+  },
+  {
+    "id": "8aab1af3",
+    "category": "math",
+    "instruction": "What is 100 divided by 8, rounded to two decimal places?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "100 divided by 8 is equal to 8 + (8-8) + 8 = 2, rounded to two decimal places."
+  },
+  {
+    "id": "d239cca1",
+    "category": "math",
+    "instruction": "Solve for x: 3x - 6 = 12.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Solution for x: 3x + 6 = 12"
+  },
+  {
+    "id": "c2d3f714",
+    "category": "math",
+    "instruction": "What is 15% of 200?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "15% of 200 is equal to 15.5% of 200."
+  },
+  {
+    "id": "7270f1da",
+    "category": "math",
+    "instruction": "What is the sum of the first 10 odd numbers?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The sum of the first ten numbers is 16.1378142 x 10^3+ (^2 - 548257213 + 880482506)."
+  },
+  {
+    "id": "f7ccb9db",
+    "category": "math",
+    "instruction": "Solve for x: 2x + 4 = 10.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "x = 2x / 4 = 10"
+  },
+  {
+    "id": "c86273d0",
+    "category": "math",
+    "instruction": "What is the perimeter of a square with side length 6?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The perimeter of a square with side length 6 is approximately 25 square meters."
+  },
+  {
+    "id": "615e73b7",
+    "category": "math",
+    "instruction": "What is 100 divided by 8, rounded to two decimal places?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "10 is equal to 17, rounded to 10 by double numbers."
+  },
+  {
+    "id": "bb67eb2f",
+    "category": "math",
+    "instruction": "What is the sum of the first 5 even numbers?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "5 is equal to 3, 1, 2, 6, 8, 16, 19, 24, 32, 40, 46, and 100."
+  },
+  {
+    "id": "c35ce492",
+    "category": "math",
+    "instruction": "Solve for x: 2x + 4 = 10.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Solution for x: 2x + 4 = 8"
+  },
+  {
+    "id": "1e66e19d",
+    "category": "math",
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "12 squared is equal to 12 \u00d7 12 = 12 \u00d7 8."
+  },
+  {
+    "id": "5c6f6899",
+    "category": "math",
+    "instruction": "What is the average of 4, 8, and 12?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The average of 4, 8, and 12 is 5.5."
+  },
+  {
+    "id": "0c32d8da",
+    "category": "math",
+    "instruction": "Solve for y: y/3 + 2 = 7.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "3 = 7"
+  },
+  {
+    "id": "89a406e3",
+    "category": "reasoning",
+    "instruction": "If you flip a coin twice, what are the possible outcomes?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The coin tosses may be the most likely outcome."
+  },
+  {
+    "id": "1571efe9",
+    "category": "reasoning",
+    "instruction": "Explain why ice floats on water.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "This is due to their high temperatures and the lack of sunlight in the atmosphere to provide even colder ocean temperatures. Ice floats in water make it difficult for organisms to spread or replicate, helping to compensate for the colder waters. Since every year the ocean temperatures increase, there is a tendency towards deeper ocean ice"
+  },
+  {
+    "id": "747d55c9",
+    "category": "reasoning",
+    "instruction": "If it is raining, the ground gets wet. The ground is wet. Can we conclude it is raining? Explain.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, the ground is wet."
+  },
+  {
+    "id": "44192a57",
+    "category": "reasoning",
+    "instruction": "If a plant is kept in a dark room, what will happen to it over time?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The plants will eventually die out, and the plants will be replaced by new plants."
+  },
+  {
+    "id": "3c90ee3f",
+    "category": "reasoning",
+    "instruction": "A train leaves at 3 PM and arrives at 6 PM. How long was the journey?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "For the journey from Tabor to Estadio Prudential, the trip took 22 days."
+  },
+  {
+    "id": "a495998d",
+    "category": "reasoning",
+    "instruction": "Why do we need to wear seatbelts in a moving car?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "There are a limited number of safety seats in a moving car, which makes wearing them unnecessary, and can greatly affect your safety. At work, for example, it is important to have your car securely secured to the window and to always wearing a comfortable white or light blue dress shirt."
+  },
+  {
+    "id": "59c2f5d6",
+    "category": "reasoning",
+    "instruction": "Explain why a metal spoon feels colder than a wooden spoon at room temperature.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "A metal spoon feels colder than a wooden spoon at room temperature because of the presence of carbon dioxide in the air, which is absorbed by the spoon and causes it to spin. This causes the spoon to spin faster and the carbon dioxide in the air causes the carbon dioxide to scatter and the resulting colder air"
+  },
+  {
+    "id": "a1e3e944",
+    "category": "reasoning",
+    "instruction": "A car travels 60 miles in 1 hour. How far will it travel in 3 hours at the same speed?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The speed at which four individual carriages will travel in 3 hours is 126 miles per hour."
+  },
+  {
+    "id": "094ecc40",
+    "category": "reasoning",
+    "instruction": "Why do we see lightning before hearing thunder?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The lightning before hearing thunder is caused by the Earth's magnetic field. As the Earth turns its axis, it shifts the atomic masses of the particles it encounters, making them more energetic and powerful. This movement causes lightning to flash, which can be seen in auroras, bright lights in the sky,"
+  },
+  {
+    "id": "50efb7c3",
+    "category": "reasoning",
+    "instruction": "Why do we see lightning before hearing thunder?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Joyous thunder comes in many different flavors. It has hundreds of degrees of force and can produce a strong roar when it strikes. It can also have a loud shout when it strikes. Electricity is also a powerful source of lightning that is often felt in the U.S., with people feeling extremely energetic"
+  },
+  {
+    "id": "07de100c",
+    "category": "reasoning",
+    "instruction": "Why does ice melt faster in warm water than in cold water?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The speed at which ice melts is dependent on the temperature of the water and the amount of water in the water. Heat from the sun causes the water to expand and contract, while cold water freezes at a faster rate. The faster the water freezes, the faster it freezes. When water freezes, it"
+  },
+  {
+    "id": "7afdf801",
+    "category": "reasoning",
+    "instruction": "Explain why a metal spoon feels colder than a wooden spoon at room temperature.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "A metal spoon feels colder than a wooden spoon at room temperature because of the irregular contact of the stem of the handle. It is best to use a different type of wooden spoon depending on your taste preferences. When preparing your food, there are two major components of your ingredients that become important to keep it"
+  },
+  {
+    "id": "b98ea575",
+    "category": "writing",
+    "instruction": "Write a short congratulatory message for a graduation.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "I certainly hope that all the participants in my program and the students my school respects will make excellent teachers and successful students throughout my life. Through the success and sacrifices made by having a well-trained and capable general manager trained at Rutgers, I can make a positive impact on a graduation day at the school"
+  },
+  {
+    "id": "b801487e",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more persuasive.",
+    "input": "Please consider donating to our cause.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Donation is a powerful tool to help people across America. It enables communities to come together and make a positive impact with their shared experiences."
+  },
+  {
+    "id": "4a867501",
+    "category": "writing",
+    "instruction": "Write a short description of a busy city street.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The busy streets of Tokyo are often located on busy streets, with people walking or shopping in the vicinity. As the years progress, the streets become more congested, with people walking across busy streets for more than two hours a day. Some popular spots in Tokyo include the Tokyo Metropolitan Convention Center, the"
+  },
+  {
+    "id": "4f3f3eab",
+    "category": "writing",
+    "instruction": "Rewrite this sentence in the passive voice.",
+    "input": "The chef cooked the meal.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The chef cooked the meal."
+  },
+  {
+    "id": "6615eb22",
+    "category": "writing",
+    "instruction": "Write a short description of a busy city street.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The bustling streets of Tokyo, Tokyo, and Osaka are filled with people who flock to the streets for the fun of it."
+  },
+  {
+    "id": "4ac8795c",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more formal.",
+    "input": "Hey, can you send me that file ASAP?",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Yes, you can send me that! Just send me the email with the ID and my details (ie, what file you are sending me) as well as the date and time when it will be available on your computer. It will most likely take two to three weeks."
+  },
+  {
+    "id": "66cb4422",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to make it more concise.",
+    "input": "Due to the fact that it was raining, we decided to stay indoors.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The rain was falling hard, and we decided to stay outside."
+  },
+  {
+    "id": "7d94da8e",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more formal.",
+    "input": "Hey, can you send me that file ASAP?",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, of course!"
+  },
+  {
+    "id": "90e1b3e5",
+    "category": "writing",
+    "instruction": "Write a short caption for a photo of a sunset.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The sun is shining brightly in this stunning scene."
+  },
+  {
+    "id": "827308f9",
+    "category": "writing",
+    "instruction": "Write a short greeting for a birthday card.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Be brave: life is full of possibilities, always have. Make it happen, stay inspired, and keep performing to make our lives happen."
+  },
+  {
+    "id": "f9873750",
+    "category": "writing",
+    "instruction": "Rewrite this sentence in the passive voice.",
+    "input": "The chef cooked the meal.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The chef used the best ingredients."
+  },
+  {
+    "id": "9b10ee77",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence using a simile.",
+    "input": "The car is very fast.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The car is very fast."
+  },
+  {
+    "id": "3e18c36d",
+    "category": "instruction_following",
+    "instruction": "Give one example of a renewable energy source.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Renewable energy sources can be found in the following countries: China, India, Pakistan, and the United Arab Emirates."
+  },
+  {
+    "id": "5580006f",
+    "category": "instruction_following",
+    "instruction": "Explain what an API is in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "An API is a set of rules and procedures used to access data from a website, such as the website's contact information, the user's contact information, and the user's contact information for the website. The API is used to access data from websites, allowing users to send and receive data from the"
+  },
+  {
+    "id": "05092995",
+    "category": "instruction_following",
+    "instruction": "Give two tips for staying healthy during winter.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Keep your cold feet warm. In colder months, I often recommend wearing layers of insulation and staying in the shade during the colder months.\n2. Look for natural light during the colder months. Look for natural light at night and make sure to keep your room lighted during the colder months"
+  },
+  {
+    "id": "382e7540",
+    "category": "instruction_following",
+    "instruction": "List three benefits of regular exercise.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Regular exercise can help to reduce stress and reduce fatigue. Regular exercise can help to reduce stress and reduce fatigue by increasing energy intake, increasing physical activity, and maintaining a healthy weight. Regular physical activity can also help to increase productivity and physical fitness.\n2. Regular physical activity can reduce anxiety"
+  },
+  {
+    "id": "7eaa6813",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'hello' into French.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Hello, welcome to our website!"
+  },
+  {
+    "id": "39e84a71",
+    "category": "instruction_following",
+    "instruction": "Give two tips for improving focus while studying.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Set aside time to focus on the task at hand, instead of just focusing on it.\n2. Plan ahead to accomplish each task. Developing a plan should be easy, but it can take a few days to get going, so plan ahead and stick to it."
+  },
+  {
+    "id": "fc59681e",
+    "category": "instruction_following",
+    "instruction": "Name two benefits of reading books regularly.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Reading books regularly can help you to stay motivated, increase your self-confidence and build your self-esteem. It can also help you to stay motivated and increase your self-awareness."
+  },
+  {
+    "id": "2956fcfb",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'please' into Japanese.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "I am so sorry."
+  },
+  {
+    "id": "9f8ed02a",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'thank you' into Spanish.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Thank you"
+  },
+  {
+    "id": "d263013d",
+    "category": "instruction_following",
+    "instruction": "List two ways to save water at home.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "1. Use a water-saving device such as a hose or spigot.\n2. Use a reusable water bottle or reusable water bottle with your water.\n3. Use a reusable water bottle or reusable water bottle with your water.\n4. Use a reusable water bottle with your water"
+  },
+  {
+    "id": "f9b793c0",
+    "category": "instruction_following",
+    "instruction": "Give two tips for staying healthy during winter.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Stay hydrated during the coldest months of the year. Keep your water intake low and to-the-point. Use sunscreen and other anti-inflammatory and anti-inflammatory products to reduce water intake."
+  },
+  {
+    "id": "a432f87e",
+    "category": "instruction_following",
+    "instruction": "Explain what recycling means in one sentence.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Recycling is different from other forms of transportation because it involves removing waste products, such as plastics, rubber, and waste products, from the environment. Recycling is also used to recycle recyclable materials such as food and fuel, which are then used to build homes, factories, and"
+  }
+]

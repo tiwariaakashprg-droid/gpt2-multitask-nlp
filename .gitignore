@@ -1,0 +1,23 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pt
+*.pth
+research/checkpoints/
+.ipynb_checkpoints/
+.env
+
+# Old / intermediate research files
+research/*_backup.py
+research/data/smoke_test_results.csv
+research/data/smoke_test_results_metadata.json
+research/results/REPORT.md
+research/results/plots/
+research/results/tmlr_legacy/
+research/results/tmlr_test/
+research/results/v1_REPORT.md
+
+# Individual human annotator records
+research/data/annotations_annotator_*.json

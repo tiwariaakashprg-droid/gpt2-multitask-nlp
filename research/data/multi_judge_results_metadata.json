@@ -1,0 +1,15 @@
+{
+  "prompt_file": "research/judge_prompt_v2.txt",
+  "temperature": 0.0,
+  "seed_base": 42,
+  "repeats": 3,
+  "retries": 3,
+  "judge_models": [
+    "llama3",
+    "qwen2.5:7b"
+  ],
+  "n_items": 300,
+  "dataset_total_rows": 300,
+  "limit": null,
+  "timestamp_utc": "2026-09-08T17:11:29Z"
+}

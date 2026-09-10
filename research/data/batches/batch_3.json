@@ -1,0 +1,602 @@
+[
+  {
+    "id": "13646e60",
+    "category": "factual",
+    "instruction": "What gas do plants absorb from the atmosphere?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Carbon dioxide and other gases in the atmosphere are absorbed by plants in the same way that water is absorbed by the ocean. Plants absorb carbon dioxide from the atmosphere by burning carbon dioxide-rich water, which is then released into the atmosphere. Plants also use carbon dioxide-rich water to convert sunlight into"
+  },
+  {
+    "id": "1617b18a",
+    "category": "factual",
+    "instruction": "What is the longest river in the world?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The longest river in the world is the Tigris."
+  },
+  {
+    "id": "4221998d",
+    "category": "factual",
+    "instruction": "What is the tallest mountain in the world?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The tallest mountain in the world is Everest, located in Nepal."
+  },
+  {
+    "id": "8b8b59ec",
+    "category": "factual",
+    "instruction": "In which country is the Eiffel Tower located?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Eiffel Tower is located in the French Alps in the French Alps region of France."
+  },
+  {
+    "id": "ea5f21a8",
+    "category": "factual",
+    "instruction": "What is the longest river in the world?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The longest river in the world is the St. Lawrence River."
+  },
+  {
+    "id": "7174ea10",
+    "category": "factual",
+    "instruction": "What is the smallest planet in our solar system?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Small planets are like tiny quarks. There are many smaller planetoids with much smaller atmospheres, like solar systems just a few light years away from Jupiter. Our planet is only about the size of a tennis court, with nearly 7,500 times the mass of Earth."
+  },
+  {
+    "id": "27e00927",
+    "category": "factual",
+    "instruction": "Who developed the theory of relativity?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The theory of relativity was first proposed by Einstein in 1848. He proposed that the laws of motion of the universe are independent of each other, and that the laws of nature are independent of each other. He also proposed that the laws of nature are not necessarily the same everywhere, and that the laws"
+  },
+  {
+    "id": "05b3c2ed",
+    "category": "factual",
+    "instruction": "What is the smallest planet in our solar system?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The smallest planet in our solar system is about 6,700 miles (14,000 kilometers) across."
+  },
+  {
+    "id": "9a4eae13",
+    "category": "factual",
+    "instruction": "What is the longest river in the world?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The longest river in the world is the Rio Grande in Mexico."
+  },
+  {
+    "id": "f5f9ed8d",
+    "category": "factual",
+    "instruction": "How many continents are there on Earth?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "There are four continents on Earth: Antarctica, Asia, Europe, North America, South America and Oceania."
+  },
+  {
+    "id": "bacc702a",
+    "category": "factual",
+    "instruction": "What is the boiling point of water in Celsius?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "With regards to the boiling point of water in Celsius, there is a range of temperatures needed to reach the boiling point in the hot liquid. There are two major temperatures recommended for boiling water are boiling point and sodium carbon dioxide (\"CO2\" or \"NaCl\"). In general, boiling point is around"
+  },
+  {
+    "id": "fc70d042",
+    "category": "factual",
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Japan is the largest nation of the world."
+  },
+  {
+    "id": "8c6f3890",
+    "category": "math",
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "10 kilometers is equal to 8.4 miles in circumference."
+  },
+  {
+    "id": "184a0fc3",
+    "category": "math",
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "12 squared is equal to 4.875 in square footage."
+  },
+  {
+    "id": "06ecd421",
+    "category": "math",
+    "instruction": "What is the sum of the first 5 even numbers?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sum of the first 5 even numbers is 5^2 = 8."
+  },
+  {
+    "id": "aae6d236",
+    "category": "math",
+    "instruction": "What is the sum of the first 10 odd numbers?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The sum of the first 10 numbers is 0, 9, 5."
+  },
+  {
+    "id": "792f0226",
+    "category": "math",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The square root of 144 is 15."
+  },
+  {
+    "id": "c21084af",
+    "category": "math",
+    "instruction": "Solve for x: 2x + 4 = 10.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "10 = 64"
+  },
+  {
+    "id": "c8ac0c61",
+    "category": "math",
+    "instruction": "What is the average of 4, 8, and 12?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The average of four, 8, and 12 are 58.5 compared to 58.5 in 5, 8, 11, 12 and 22."
+  },
+  {
+    "id": "2f6d28cf",
+    "category": "math",
+    "instruction": "Solve for x: 5x = 45.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "5x = 45 is equal to 5x + 5x = 15."
+  },
+  {
+    "id": "12f2c772",
+    "category": "math",
+    "instruction": "What is the sum of the first 10 odd numbers?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sum of the first 10 odd numbers is 8."
+  },
+  {
+    "id": "ceb3cfc0",
+    "category": "math",
+    "instruction": "What is 25% of 400?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "250 is equal to 46.30% of 4000."
+  },
+  {
+    "id": "9ce3d8b9",
+    "category": "math",
+    "instruction": "What is 25% of 400?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "25% of 400 is equal to 25.5% of 400."
+  },
+  {
+    "id": "becaee18",
+    "category": "math",
+    "instruction": "Solve for y: y/3 + 2 = 7.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The answer to y/3 + 2 = 7 is y/3 + 2 = 7."
+  },
+  {
+    "id": "94cf0a1e",
+    "category": "reasoning",
+    "instruction": "A train leaves at 3 PM and arrives at 6 PM. How long was the journey?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The journey took approximately 8.5 hours."
+  },
+  {
+    "id": "5b2582f7",
+    "category": "reasoning",
+    "instruction": "If all squares are rectangles, is every rectangle a square? Explain.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, every rectangle is a square."
+  },
+  {
+    "id": "66288094",
+    "category": "reasoning",
+    "instruction": "If all cats are animals and Tom is a cat, what can you conclude about Tom?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Mum, don't get me started on answering this question either. Let's be honest, Tom may not be as natural a cat as one might think! I don't believe it's possible to identify the true animal. I also believe in some kind of collective self-awareness and empathy for others"
+  },
+  {
+    "id": "2c6a8f9a",
+    "category": "reasoning",
+    "instruction": "Explain why the sky appears blue during the day.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The sky appears blue during the day due to the rotation of the Earth, which is the amount of sunlight entering the Earth's atmosphere. The blue coloration also has a calming effect on the eye, which helps reduce stress and anxiety."
+  },
+  {
+    "id": "4f55dda5",
+    "category": "reasoning",
+    "instruction": "If all squares are rectangles, is every rectangle a square? Explain.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Conceptually, all of the squares could be considered square if all the squares are drawn on one side, and are necessarily shown in space, where each corresponding color is on the entire rectangle. However, if all two sides are drawn on the same side, the potential shape of each of the squares"
+  },
+  {
+    "id": "e48e6415",
+    "category": "reasoning",
+    "instruction": "If Sarah is older than Tom, and Tom is older than Mike, who is the youngest?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The oldest person to be considered for the role of Tom is Tom Cruise."
+  },
+  {
+    "id": "d5351235",
+    "category": "reasoning",
+    "instruction": "If you flip a coin twice, what are the possible outcomes?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Determining the outcomes of flips would be easy, however, looking at coin flips can be interesting. Many common turns will be drawn, like a madman turning on his tail and then swinging its attack. These decisions also should help keep the game fair. Lastly, flipping a coin will encourage players"
+  },
+  {
+    "id": "2d0d2efe",
+    "category": "reasoning",
+    "instruction": "A farmer has 3 chickens and buys 5 more. How many chickens does he have now?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Three chickens and 5 more can be bought at the same time."
+  },
+  {
+    "id": "dec1cd47",
+    "category": "reasoning",
+    "instruction": "Explain why ice floats on water.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The ice floats on water are caused by the cold, moist air around the vessel, which freezes the water in the vessel and causes it to expand. This causes the water to expand, which causes the water to rise and float on the surface. This causes the water to expand, which causes the water"
+  },
+  {
+    "id": "303101a2",
+    "category": "reasoning",
+    "instruction": "If Sarah is older than Tom, and Tom is older than Mike, who is the youngest?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Overall, the youngest is Matthew. Matthew had a long gray beard with a somewhat emaciated expression and his face was otherwise somewhat human due to his slightly aged manner. His eyebrows were set low, which made him even more likely to recognize people. Tom was also taller than him and despite his lower"
+  },
+  {
+    "id": "c4143a3d",
+    "category": "reasoning",
+    "instruction": "If you flip a coin twice, what are the possible outcomes?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The possible outcomes of flipping a coin are: 1. A coin flips 1/2 of the way round, 2. The coin is flipped 1/2 of the way round, 3. The coin is flipped 1/2 of the way round, 4. The coin is flipped 1/2 of"
+  },
+  {
+    "id": "3e909e2e",
+    "category": "reasoning",
+    "instruction": "Explain why a metal spoon feels colder than a wooden spoon at room temperature.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "It is because the metals in a wooden spoon are extremely soft and don't stick to one another. Furthermore, the amount of force that is applied to the wooden spoon can be very large, making it difficult to separate the particles and help the spoon break up into smaller chunks. It is also important to"
+  },
+  {
+    "id": "678a678d",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more formal.",
+    "input": "Hey, can you send me that file ASAP?",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, you can! Let me know!"
+  },
+  {
+    "id": "118a6e81",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to remove the passive voice.",
+    "input": "The window was broken by the storm.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The window was broken by the storm."
+  },
+  {
+    "id": "ad980251",
+    "category": "writing",
+    "instruction": "Write a two-line poem about the moon.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The moon was full of life and peace,\nIt was like a shining star in the night,\nBut the night was cold and night was full of darkness,\nThe night was full of death and despair,\nThe moon was full of life and peace,\nBut the night was full of"
+  },
+  {
+    "id": "a5407a62",
+    "category": "writing",
+    "instruction": "Write a one-sentence apology for being late to a meeting.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Yes, I'm late to a meeting."
+  },
+  {
+    "id": "823b5f4a",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence in a more formal tone.",
+    "input": "That's awesome, thanks a lot!",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "It could be improved if we kept using Google Docs and Word with more consistent use."
+  },
+  {
+    "id": "10f7968a",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to make it more concise.",
+    "input": "Due to the fact that it was raining, we decided to stay indoors.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "We decided not to stay inside because of the risk of going down the street, getting lost in the clouds, and having to put on our sunglasses in such a hurry."
+  },
+  {
+    "id": "6b63a8d0",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence in a more formal tone.",
+    "input": "That's awesome, thanks a lot!",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "It's definitely worth it."
+  },
+  {
+    "id": "a8d0c178",
+    "category": "writing",
+    "instruction": "Write a one-sentence apology for being late to a meeting.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "I was late to a meeting with my team. It was a great experience and I wanted to make an impact. I'm so grateful for what I did this weekend. I'm so thankful for the opportunity to have the opportunity to share my journey with the world."
+  },
+  {
+    "id": "122d3fae",
+    "category": "writing",
+    "instruction": "Summarize the concept of photosynthesis in one sentence.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Photosynthesis is the process of producing oxygen for the atmosphere and a source of living and biotic organisms alike. It is the process by which the body responds to a foreign energy in order to make a significant contribution to the production of a certain chemical. The bodies of organisms dependent on the environment have a"
+  },
+  {
+    "id": "109140be",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to remove the passive voice.",
+    "input": "The window was broken by the storm.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The storm was broken by the storm."
+  },
+  {
+    "id": "83d983d2",
+    "category": "writing",
+    "instruction": "Write a one-sentence apology for being late to a meeting.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I was late to a meeting."
+  },
+  {
+    "id": "ac5ed59b",
+    "category": "writing",
+    "instruction": "Summarize the concept of photosynthesis in one sentence.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Photosynthesis is the process by which plants and animals convert sunlight into energy and convert that energy to energy for the plants. It involves the conversion of sunlight energy into carbon dioxide and other carbon dioxide molecules. Plants convert these carbon dioxide molecules into ATP, NADPH, and NADPHO, which are then"
+  },
+  {
+    "id": "397051a0",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'goodbye' into German.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Joy: Goodbye"
+  },
+  {
+    "id": "31f883f5",
+    "category": "instruction_following",
+    "instruction": "Explain what a firewall is in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "A firewall is a firewall that separates traffic from other systems and allows for easy access to sensitive data. It is designed to block malicious traffic and prevents malicious traffic from reaching the network. It also prevents malicious traffic from reaching the internet itself, where it is more likely to be intercepted and used to target other"
+  },
+  {
+    "id": "9564b0d9",
+    "category": "instruction_following",
+    "instruction": "Give one example of a renewable energy source.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Renewable energy sources are typically located in the Indian Ocean, the Pacific, and in Asia."
+  },
+  {
+    "id": "5717336b",
+    "category": "instruction_following",
+    "instruction": "Give one example of a renewable energy source.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Renewable energy has several uses. It is being used in cars and energy storage systems to power homes and transform waste into energy when needed. Clean energy accounts for around one in four U.S. homes, making renewable energy an important energy savings vehicle for many families across the United States."
+  },
+  {
+    "id": "c211a5f5",
+    "category": "instruction_following",
+    "instruction": "List three benefits of regular exercise.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Regular exercise helps to improve flexibility and strength throughout your body and can also help boost performance. Regular physical activity also draws your hormones into balance and can help you maintain physical strength and build a focus on your career goals."
+  },
+  {
+    "id": "3d070026",
+    "category": "instruction_following",
+    "instruction": "Explain what cloud storage means in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Cloud storage is a cloud service that enables applications and services to be stored on a distributed, encrypted, shared, or replicated or deployed storage infrastructure. This capability allows applications and services to be organized in a scalable virtual machine environment and be quickly accessed, replicated, deployed, and updated quickly. With cloud storage"
+  },
+  {
+    "id": "7fcc9019",
+    "category": "instruction_following",
+    "instruction": "Give one tip for saving money each month.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "One tip for saving money each month is to consider using a savings account when making payments. Savings accounts can be used to store your money and make sure it is safe and secure. Additionally, you can use a savings account to purchase goods and services, such as CDs, DVDs, and other digital media"
+  },
+  {
+    "id": "816bf4fa",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'goodbye' into German.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Goodbye is a verb that means to stay in good spirits."
+  },
+  {
+    "id": "9b31fa57",
+    "category": "instruction_following",
+    "instruction": "List three ingredients commonly used in an Italian pasta dish.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Bananas, milk, vegetables."
+  },
+  {
+    "id": "3083ec84",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'hello' into French.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Hello, welcome to my website! I'm here to help you!"
+  },
+  {
+    "id": "db723c92",
+    "category": "instruction_following",
+    "instruction": "Name three colors that are found in a rainbow.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Three colors that are found in a rainbow are blue, yellow, and violet."
+  },
+  {
+    "id": "339d129b",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'hello' into French.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Ago de Paris est d\u00e9part: \"Yes, I'm here.\""
+  }
+]

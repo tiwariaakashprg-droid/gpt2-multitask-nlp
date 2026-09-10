@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "970cc88f",
+    "category": "factual",
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The capital of Japan is Tokyo."
+  },
+  {
+    "id": "fc70d042",
+    "category": "factual",
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Japan is the largest nation of the world."
+  },
+  {
+    "id": "85930be4",
+    "category": "factual",
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The Japanese capital of Japan is Sapporo."
+  },
+  {
+    "id": "f8c00d1b",
+    "category": "factual",
+    "instruction": "Who wrote the play Romeo and Juliet?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Romeo and Juliet was written by Leonardo da Vinci. It was written by Leonardo da Vinci, who was a renowned Italian Renaissance painter and sculptor."
+  },
+  {
+    "id": "a0b0a060",
+    "category": "factual",
+    "instruction": "Who wrote the play Romeo and Juliet?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The play Romeo and Juliet is written by Charles de Vigna, and it is the first play of the French play Romeo and Juliet. It was written by the late French playwright, Michel Traverot, and was published in 1648."
+  },
+  {
+    "id": "4928f457",
+    "category": "factual",
+    "instruction": "Who wrote the play Romeo and Juliet?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Opinion:\nThe play Romeo and Juliet was written by Rian de Cervantes for the Italian edition of the French National Theatre."
+  },
+  {
+    "id": "0cd5b4b7",
+    "category": "factual",
+    "instruction": "What is the boiling point of water in Celsius?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The boiling point of water in Celsius is 0.025 degrees Celsius."
+  },
+  {
+    "id": "7c07ba03",
+    "category": "factual",
+    "instruction": "What is the boiling point of water in Celsius?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The boiling point of water in Celsius is 0.74 degrees Celsius."
+  },
+  {
+    "id": "bacc702a",
+    "category": "factual",
+    "instruction": "What is the boiling point of water in Celsius?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "With regards to the boiling point of water in Celsius, there is a range of temperatures needed to reach the boiling point in the hot liquid. There are two major temperatures recommended for boiling water are boiling point and sodium carbon dioxide (\"CO2\" or \"NaCl\"). In general, boiling point is around"
+  },
+  {
+    "id": "64cc4228",
+    "category": "factual",
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The largest planet in our solar system is the Sun."
+  },
+  {
+    "id": "c21805d1",
+    "category": "factual",
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The largest planet in our solar system is about 5.8 times smaller than our sun."
+  },
+  {
+    "id": "223973a9",
+    "category": "factual",
+    "instruction": "Name the largest planet in our solar system.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The largest planet seen in our Solar System is about 22,700 kilometers (14,560 miles) from Earth."
+  },
+  {
+    "id": "994c09a0",
+    "category": "factual",
+    "instruction": "What is the largest ocean on Earth?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The largest ocean on Earth is the Gulf of Mexico, which is about 1,500 miles (2,500 kilometers) long."
+  },
+  {
+    "id": "fd0ed9f0",
+    "category": "factual",
+    "instruction": "What is the largest ocean on Earth?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The largest ocean on Earth is the Atacama Desert in the Pacific Ocean, about 16,000 km2 (12,000 miles) off the coast of the U.S."
+  },
+  {
+    "id": "5a7f0a33",
+    "category": "factual",
+    "instruction": "What is the largest ocean on Earth?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The largest ocean on Earth is the Hapta system, with depth estimated at 8,100 kilometers (764 miles) above the ocean surface."
+  },
+  {
+    "id": "8fa93f82",
+    "category": "factual",
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Mona Lisa was created by Leonardo da Vinci in 1592. It was painted by Leonardo da Vinci with the help of his daughter, Florence."
+  },
+  {
+    "id": "98a55b48",
+    "category": "factual",
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Mona Lisa was painted by Leonardo da Vinci in 1296."
+  },
+  {
+    "id": "91ee6978",
+    "category": "factual",
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Artificial Intelligence (AI) is a field of applied artificial intelligence that enables machines to extract and interpret insights from an existing world. For example, by analyzing data and understanding its causes, AI can predict what actions are likely to be taken by a particular person at any given moment and create strategies and scenarios"
+  },
+  {
+    "id": "eaa02aa1",
+    "category": "factual",
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The chemical symbol for gold is the Sulfur Dioxide symbol."
+  },
+  {
+    "id": "2ae184b0",
+    "category": "factual",
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The chemical symbol for gold is G^2."
+  },
+  {
+    "id": "d4f12a2c",
+    "category": "factual",
+    "instruction": "What is the chemical symbol for gold?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The gold symbol is the symbol for \"gold,\" meaning peace and understanding."
+  },
+  {
+    "id": "8b8b59ec",
+    "category": "factual",
+    "instruction": "In which country is the Eiffel Tower located?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Eiffel Tower is located in the French Alps in the French Alps region of France."
+  },
+  {
+    "id": "e648d6e1",
+    "category": "factual",
+    "instruction": "In which country is the Eiffel Tower located?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Eiffel Tower is located in the French-speaking kingdom of France."
+  },
+  {
+    "id": "1142039a",
+    "category": "factual",
+    "instruction": "In which country is the Eiffel Tower located?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Eiffel Tower is located in Paris, France. Its name is derived from the French island l'Eiffel which is situated about 14 kilometers (6 miles) south of Camp Du Nuit, and is also known as Paris \nEiffel is most regularly visited in the city of"
+  },
+  {
+    "id": "aab53612",
+    "category": "factual",
+    "instruction": "What is the currency of Japan?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Japanese yen is the national currency of Japan."
+  },
+  {
+    "id": "e8aade90",
+    "category": "factual",
+    "instruction": "What is the currency of Japan?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Japanese yen is the legal tender of the Japanese yen."
+  },
+  {
+    "id": "bdde0259",
+    "category": "factual",
+    "instruction": "What is the currency of Japan?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The Japanese yen is the British Pound Digital Dollar."
+  },
+  {
+    "id": "cf63a658",
+    "category": "factual",
+    "instruction": "Who was the first President of the United States?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "George Washington was the first President of the United States. He was sworn in on January 20, 1776."
+  },
+  {
+    "id": "9b984c0f",
+    "category": "factual",
+    "instruction": "Who was the first President of the United States?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "George Washington was the first president of the United States. He was sworn in on January 20, 1776."
+  },
+  {
+    "id": "06f08f36",
+    "category": "factual",
+    "instruction": "Who was the first President of the United States?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Lincoln was the first President of the United States, who was one of the most influential and creative men in modern American history. He pushed the boundaries of what could be done in a given country, and encouraged Americans to interact with each other in times of need. He served as a national treasure for"
+  },
+  {
+    "id": "7f7451d8",
+    "category": "factual",
+    "instruction": "What is the tallest mountain in the world?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The tallest mountain in the world is Everest."
+  },
+  {
+    "id": "4221998d",
+    "category": "factual",
+    "instruction": "What is the tallest mountain in the world?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The tallest mountain in the world is Everest, located in Nepal."
+  },
+  {
+    "id": "575efa0b",
+    "category": "factual",
+    "instruction": "What is the tallest mountain in the world?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The tallest mountain in the world is 1236 meters (350 m) high by 711 meters (807 ft)."
+  },
+  {
+    "id": "74768135",
+    "category": "factual",
+    "instruction": "How many continents are there on Earth?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "There are approximately 8,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000"
+  },
+  {
+    "id": "f5f9ed8d",
+    "category": "factual",
+    "instruction": "How many continents are there on Earth?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "There are four continents on Earth: Antarctica, Asia, Europe, North America, South America and Oceania."
+  },
+  {
+    "id": "6ca7cf89",
+    "category": "factual",
+    "instruction": "How many continents are there on Earth?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Etymology: Worldly, from East and West."
+  },
+  {
+    "id": "dcba4c4a",
+    "category": "factual",
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The freezing point of water in Celsius is 0.025 degrees Celsius."
+  },
+  {
+    "id": "dc6739f9",
+    "category": "factual",
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The freezing point of water in Celsius is 2.6 degrees Celsius, or 126.5 degrees Fahrenheit."
+  },
+  {
+    "id": "26e8d3f0",
+    "category": "factual",
+    "instruction": "What is the freezing point of water in Celsius?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The freezing point of water can vary widely depending on individual country. Caves of varying temperatures in several countries can be traced to tiny lakes frozen in frozen ice near the equator, and lakes near the poles can generally freeze to near-freezing temperatures. Even the coldest regions of the sun have"
+  },
+  {
+    "id": "27e00927",
+    "category": "factual",
+    "instruction": "Who developed the theory of relativity?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The theory of relativity was first proposed by Einstein in 1848. He proposed that the laws of motion of the universe are independent of each other, and that the laws of nature are independent of each other. He also proposed that the laws of nature are not necessarily the same everywhere, and that the laws"
+  },
+  {
+    "id": "5a4294eb",
+    "category": "factual",
+    "instruction": "Who developed the theory of relativity?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The theory of relativity is the theory of relativity created by Einstein and others in the late 1960s and early 1970s. The theory is based on the theory of relativity that states that the curvature of space is caused by the curvature of a planet, rather than by any particular force. This curv"
+  },
+  {
+    "id": "ba0c904c",
+    "category": "factual",
+    "instruction": "Who developed the theory of relativity?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The theory of relativity is that particles are like water, but their masses are not completely related to their distance to the Sun. Physics can only be observed in space, and observations can only be obtained over very short places. This theory of relativity accounts for both cause and effect (injecting particles and"
+  },
+  {
+    "id": "05b3c2ed",
+    "category": "factual",
+    "instruction": "What is the smallest planet in our solar system?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The smallest planet in our solar system is about 6,700 miles (14,000 kilometers) across."
+  },
+  {
+    "id": "abc8af11",
+    "category": "factual",
+    "instruction": "What is the smallest planet in our solar system?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The smallest planet in our solar system is the Little Planet Cloud, which is located about 300 light years away from our Sun."
+  },
+  {
+    "id": "7174ea10",
+    "category": "factual",
+    "instruction": "What is the smallest planet in our solar system?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Small planets are like tiny quarks. There are many smaller planetoids with much smaller atmospheres, like solar systems just a few light years away from Jupiter. Our planet is only about the size of a tennis court, with nearly 7,500 times the mass of Earth."
+  },
+  {
+    "id": "a5201026",
+    "category": "factual",
+    "instruction": "What language is primarily spoken in Brazil?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Bengo is spoken in Brazil by about 8.5% of the population."
+  },
+  {
+    "id": "4bab1b88",
+    "category": "factual",
+    "instruction": "What language is primarily spoken in Brazil?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Brasilia is the language spoken in Brazil."
+  },
+  {
+    "id": "bae39df4",
+    "category": "factual",
+    "instruction": "What language is primarily spoken in Brazil?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Bantustan \u4e2d\u6587,\u203a\u4e2d\u6587\u203a\u4e2d\u6587\u2039\u4e2d\u6587,\u203a\u4e2d\u6587 is spoken in three languages,\u203a\u203a\u203a in Portuguese, and\u203a\u203a\u203a\u203a in Hindi, according to a"
+  },
+  {
+    "id": "64cb6e5d",
+    "category": "factual",
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The Capital of Australia is the state capital of Australia."
+  },
+  {
+    "id": "e88aa8f8",
+    "category": "factual",
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The Capital of Australia is 10,848,848."
+  },
+  {
+    "id": "78354c00",
+    "category": "factual",
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Australian Capital Territory"
+  },
+  {
+    "id": "9a10b9d4",
+    "category": "factual",
+    "instruction": "Who wrote the novel Pride and Prejudice?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The novel Pride and Prejudice is written by John C. L. Brooks."
+  },
+  {
+    "id": "09b6cf06",
+    "category": "factual",
+    "instruction": "Who wrote the novel Pride and Prejudice?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Gloria Cartagena was a French woman who lived in the heart of Paris before she met her new husband. She is said to have been influenced by the novel and her life experiences are seen through the eyes of a woman who is often depicted as a person of extraordinary courage, ambition, and"
+  },
+  {
+    "id": "ec0f2e10",
+    "category": "factual",
+    "instruction": "Who wrote the novel Pride and Prejudice?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Died"
+  },
+  {
+    "id": "13646e60",
+    "category": "factual",
+    "instruction": "What gas do plants absorb from the atmosphere?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Carbon dioxide and other gases in the atmosphere are absorbed by plants in the same way that water is absorbed by the ocean. Plants absorb carbon dioxide from the atmosphere by burning carbon dioxide-rich water, which is then released into the atmosphere. Plants also use carbon dioxide-rich water to convert sunlight into"
+  },
+  {
+    "id": "e10cb042",
+    "category": "factual",
+    "instruction": "What gas do plants absorb from the atmosphere?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The main sources of gas in the atmosphere are the sun, the oceans, and the atmosphere itself."
+  },
+  {
+    "id": "c1c7a254",
+    "category": "factual",
+    "instruction": "What gas do plants absorb from the atmosphere?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Carbon dioxide, nitrous oxide, nitrous oxide dioxide, phosphorus, and lime can all be absorbed from the atmosphere of plants."
+  },
+  {
+    "id": "9a4eae13",
+    "category": "factual",
+    "instruction": "What is the longest river in the world?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The longest river in the world is the Rio Grande in Mexico."
+  },
+  {
+    "id": "1617b18a",
+    "category": "factual",
+    "instruction": "What is the longest river in the world?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The longest river in the world is the Tigris."
+  },
+  {
+    "id": "ea5f21a8",
+    "category": "factual",
+    "instruction": "What is the longest river in the world?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The longest river in the world is the St. Lawrence River."
+  },
+  {
+    "id": "8c6f3890",
+    "category": "math",
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "10 kilometers is equal to 8.4 miles in circumference."
+  },
+  {
+    "id": "0c9bba3a",
+    "category": "math",
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "10 kilometers is equal to 848,872,552 miles."
+  },
+  {
+    "id": "1208f288",
+    "category": "math",
+    "instruction": "Convert 10 kilometers to miles.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "10 kilometers has 64,110 kilometers of total traveled."
+  },
+  {
+    "id": "c2d3f714",
+    "category": "math",
+    "instruction": "What is 15% of 200?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "15% of 200 is equal to 15.5% of 200."
+  },
+  {
+    "id": "80c02411",
+    "category": "math",
+    "instruction": "What is 15% of 200?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "15% of 200 is equal to 1,200,000 points."
+  },
+  {
+    "id": "3ee2d173",
+    "category": "math",
+    "instruction": "What is 15% of 200?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "For the purposes of 15% of 200, four factors are: body mass index (BMI) + body mass index (BMI) + muscle density (BMD) + waist circumference and obesity."
+  },
+  {
+    "id": "c35ce492",
+    "category": "math",
+    "instruction": "Solve for x: 2x + 4 = 10.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Solution for x: 2x + 4 = 8"
+  },
+  {
+    "id": "f7ccb9db",
+    "category": "math",
+    "instruction": "Solve for x: 2x + 4 = 10.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "x = 2x / 4 = 10"
+  },
+  {
+    "id": "c21084af",
+    "category": "math",
+    "instruction": "Solve for x: 2x + 4 = 10.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "10 = 64"
+  },
+  {
+    "id": "06ecd421",
+    "category": "math",
+    "instruction": "What is the sum of the first 5 even numbers?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sum of the first 5 even numbers is 5^2 = 8."
+  },
+  {
+    "id": "bb67eb2f",
+    "category": "math",
+    "instruction": "What is the sum of the first 5 even numbers?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "5 is equal to 3, 1, 2, 6, 8, 16, 19, 24, 32, 40, 46, and 100."
+  },
+  {
+    "id": "d06589cb",
+    "category": "math",
+    "instruction": "What is the sum of the first 5 even numbers?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The sum of the 5 odd numbers is 556."
+  },
+  {
+    "id": "9ce3d8b9",
+    "category": "math",
+    "instruction": "What is 25% of 400?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "25% of 400 is equal to 25.5% of 400."
+  },
+  {
+    "id": "06dacd16",
+    "category": "math",
+    "instruction": "What is 25% of 400?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "25% of 400 is equal to 25,000 nuclear weapons."
+  },
+  {
+    "id": "ceb3cfc0",
+    "category": "math",
+    "instruction": "What is 25% of 400?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "250 is equal to 46.30% of 4000."
+  },
+  {
+    "id": "9c8a7317",
+    "category": "math",
+    "instruction": "Convert 5 miles to kilometers.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "5 miles is equal to 5,000 kilometers."
+  },
+  {
+    "id": "b7b6c3a3",
+    "category": "math",
+    "instruction": "Convert 5 miles to kilometers.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "5 miles is equal to 1.2 kilometers."
+  },
+  {
+    "id": "9194486c",
+    "category": "math",
+    "instruction": "Convert 5 miles to kilometers.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "5 miles equals 1353.25 kilometers."
+  },
+  {
+    "id": "5fae8d0d",
+    "category": "math",
+    "instruction": "Solve for x: 3x - 6 = 12.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Solution: 3x - 6 = 12."
+  },
+  {
+    "id": "d239cca1",
+    "category": "math",
+    "instruction": "Solve for x: 3x - 6 = 12.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Solution for x: 3x + 6 = 12"
+  },
+  {
+    "id": "b1a8daaa",
+    "category": "math",
+    "instruction": "Solve for x: 3x - 6 = 12.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Solution 4x - 6 = 12"
+  },
+  {
+    "id": "792f0226",
+    "category": "math",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The square root of 144 is 15."
+  },
+  {
+    "id": "765f7b06",
+    "category": "math",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "144 is equal to 128."
+  },
+  {
+    "id": "2b72bfec",
+    "category": "math",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "144 = 1, 036."
+  },
+  {
+    "id": "12f2c772",
+    "category": "math",
+    "instruction": "What is the sum of the first 10 odd numbers?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sum of the first 10 odd numbers is 8."
+  },
+  {
+    "id": "aae6d236",
+    "category": "math",
+    "instruction": "What is the sum of the first 10 odd numbers?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The sum of the first 10 numbers is 0, 9, 5."
+  },
+  {
+    "id": "7270f1da",
+    "category": "math",
+    "instruction": "What is the sum of the first 10 odd numbers?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The sum of the first ten numbers is 16.1378142 x 10^3+ (^2 - 548257213 + 880482506)."
+  },
+  {
+    "id": "6c091e8f",
+    "category": "math",
+    "instruction": "If a rectangle has length 8 and width 5, what is its area?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The area of the rectangle is 8.5x5."
+  },
+  {
+    "id": "85cd1c2a",
+    "category": "math",
+    "instruction": "If a rectangle has length 8 and width 5, what is its area?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The area of the rectangle is 8x5."
+  },
+  {
+    "id": "4c6bd5c5",
+    "category": "math",
+    "instruction": "If a rectangle has length 8 and width 5, what is its area?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Area is the square between the inner half of the rectangle and the perimeter lines."
+  },
+  {
+    "id": "64078af0",
+    "category": "math",
+    "instruction": "What is 7 multiplied by 9?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "7 is equal to 9 + 1."
+  },
+  {
+    "id": "eb2627a6",
+    "category": "math",
+    "instruction": "What is 7 multiplied by 9?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "7 is equal to 9 + 1/2 = 40."
+  },
+  {
+    "id": "434aff3b",
+    "category": "math",
+    "instruction": "What is 7 multiplied by 9?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "7 is 6.3311, 8 is 6.2537 and 9 is 692.3641. All 7 numbers are equal."
+  },
+  {
+    "id": "d62dc062",
+    "category": "math",
+    "instruction": "Convert 2 hours into minutes.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "2 hours is equal to 12 minutes."
+  },
+  {
+    "id": "0ee4ecb5",
+    "category": "math",
+    "instruction": "Convert 2 hours into minutes.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "2 hours is equal to 16 minutes."
+  },
+  {
+    "id": "00fb9d31",
+    "category": "math",
+    "instruction": "Convert 2 hours into minutes.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Two hours in two minutes = 3120."
+  },
+  {
+    "id": "5c6f6899",
+    "category": "math",
+    "instruction": "What is the average of 4, 8, and 12?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The average of 4, 8, and 12 is 5.5."
+  },
+  {
+    "id": "3ab10d18",
+    "category": "math",
+    "instruction": "What is the average of 4, 8, and 12?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The average of 4, 8, and 12 is 25.5 units."
+  },
+  {
+    "id": "c8ac0c61",
+    "category": "math",
+    "instruction": "What is the average of 4, 8, and 12?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The average of four, 8, and 12 are 58.5 compared to 58.5 in 5, 8, 11, 12 and 22."
+  },
+  {
+    "id": "becaee18",
+    "category": "math",
+    "instruction": "Solve for y: y/3 + 2 = 7.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The answer to y/3 + 2 = 7 is y/3 + 2 = 7."
+  },
+  {
+    "id": "0c32d8da",
+    "category": "math",
+    "instruction": "Solve for y: y/3 + 2 = 7.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "3 = 7"
+  },
+  {
+    "id": "65d4ebf6",
+    "category": "math",
+    "instruction": "Solve for y: y/3 + 2 = 7.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Consequently, given that 3 is 2, and 16 is 11, you need 2+9 = 0.0014 to reach y = 4. As you add up y + 2, y+2, and x^2, infinity is equal to 11. The approximate result is that there"
+  },
+  {
+    "id": "1e66e19d",
+    "category": "math",
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "12 squared is equal to 12 \u00d7 12 = 12 \u00d7 8."
+  },
+  {
+    "id": "184a0fc3",
+    "category": "math",
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "12 squared is equal to 4.875 in square footage."
+  },
+  {
+    "id": "1ad44118",
+    "category": "math",
+    "instruction": "What is 12 squared?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "12 squared is equal to 10^(10^2/2)^2 = 6.5 for X, and 8 is equal to 6.56 for Y, and 3 for X^3, so for X = 4,12 is equal to 9^(9/2)^2"
+  },
+  {
+    "id": "cbe9e14a",
+    "category": "math",
+    "instruction": "Convert 3 kilograms to grams.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "3 kilograms is equal to 1.375 grams."
+  },
+  {
+    "id": "1e811718",
+    "category": "math",
+    "instruction": "Convert 3 kilograms to grams.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "3 kilograms = 3.2 grams."
+  },
+  {
+    "id": "7567b9b0",
+    "category": "math",
+    "instruction": "Convert 3 kilograms to grams.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "To convert 3 kilograms to grams is 2511"
+  },
+  {
+    "id": "e4f1a324",
+    "category": "math",
+    "instruction": "What is 100 divided by 8, rounded to two decimal places?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "100 divided by 8 is equal to 8, rounded to two decimal places."
+  },
+  {
+    "id": "8aab1af3",
+    "category": "math",
+    "instruction": "What is 100 divided by 8, rounded to two decimal places?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "100 divided by 8 is equal to 8 + (8-8) + 8 = 2, rounded to two decimal places."
+  },
+  {
+    "id": "615e73b7",
+    "category": "math",
+    "instruction": "What is 100 divided by 8, rounded to two decimal places?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "10 is equal to 17, rounded to 10 by double numbers."
+  },
+  {
+    "id": "04da400d",
+    "category": "math",
+    "instruction": "What is the perimeter of a square with side length 6?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The perimeter of a square with side length 6 is 8 inches."
+  },
+  {
+    "id": "c86273d0",
+    "category": "math",
+    "instruction": "What is the perimeter of a square with side length 6?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The perimeter of a square with side length 6 is approximately 25 square meters."
+  },
+  {
+    "id": "b6948ff0",
+    "category": "math",
+    "instruction": "What is the perimeter of a square with side length 6?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The perimeter of a square with side length 6 is 66.5 inches (147.9 cm \u00d7 78.6 cm)."
+  },
+  {
+    "id": "8a0393a1",
+    "category": "math",
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "30% of 150 is equal to 15.5% of 150."
+  },
+  {
+    "id": "c1debf1b",
+    "category": "math",
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "30% of 150 represents approximately 0.6% of the total number of employees in the United States, which is equal to about 2.33 million people."
+  },
+  {
+    "id": "73652d38",
+    "category": "math",
+    "instruction": "What is 30% of 150?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "For starters, 75% of 150 is equal to 25x30% of 150."
+  },
+  {
+    "id": "2f6d28cf",
+    "category": "math",
+    "instruction": "Solve for x: 5x = 45.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "5x = 45 is equal to 5x + 5x = 15."
+  },
+  {
+    "id": "970ed795",
+    "category": "math",
+    "instruction": "Solve for x: 5x = 45.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Solution for x: 5x = 45"
+  },
+  {
+    "id": "fc909d22",
+    "category": "math",
+    "instruction": "Solve for x: 5x = 45.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "3x = 1272."
+  },
+  {
+    "id": "6711d216",
+    "category": "reasoning",
+    "instruction": "If all cats are animals and Tom is a cat, what can you conclude about Tom?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Tom is a cat."
+  },
+  {
+    "id": "1c74349f",
+    "category": "reasoning",
+    "instruction": "If all cats are animals and Tom is a cat, what can you conclude about Tom?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "He is an amazing animal, with a loving and friendly personality. He is intelligent, energetic and is always smiling. He loves to maul people. He has a bright and bubbly personality, with a strong sense of humor, and is always smiling. He is also an excellent cook, making him"
+  },
+  {
+    "id": "66288094",
+    "category": "reasoning",
+    "instruction": "If all cats are animals and Tom is a cat, what can you conclude about Tom?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Mum, don't get me started on answering this question either. Let's be honest, Tom may not be as natural a cat as one might think! I don't believe it's possible to identify the true animal. I also believe in some kind of collective self-awareness and empathy for others"
+  },
+  {
+    "id": "d06da90d",
+    "category": "reasoning",
+    "instruction": "A farmer has 3 chickens and buys 5 more. How many chickens does he have now?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Three chickens and 5 more chickens is enough to buy 5 more chickens."
+  },
+  {
+    "id": "2d0d2efe",
+    "category": "reasoning",
+    "instruction": "A farmer has 3 chickens and buys 5 more. How many chickens does he have now?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Three chickens and 5 more can be bought at the same time."
+  },
+  {
+    "id": "25f73f85",
+    "category": "reasoning",
+    "instruction": "A farmer has 3 chickens and buys 5 more. How many chickens does he have now?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Three chickens is plenty. He still needs to buy more."
+  },
+  {
+    "id": "839d58bf",
+    "category": "reasoning",
+    "instruction": "Why do we see lightning before hearing thunder?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The lightning that strikes before a thunderstorm is caused by a combination of factors, such as the wind, rain, and lightning strikes. The lightning that strikes before a thunderstorm is caused by a combination of factors, such as the wind, rain, and lightning strikes."
+  },
+  {
+    "id": "094ecc40",
+    "category": "reasoning",
+    "instruction": "Why do we see lightning before hearing thunder?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The lightning before hearing thunder is caused by the Earth's magnetic field. As the Earth turns its axis, it shifts the atomic masses of the particles it encounters, making them more energetic and powerful. This movement causes lightning to flash, which can be seen in auroras, bright lights in the sky,"
+  },
+  {
+    "id": "50efb7c3",
+    "category": "reasoning",
+    "instruction": "Why do we see lightning before hearing thunder?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Joyous thunder comes in many different flavors. It has hundreds of degrees of force and can produce a strong roar when it strikes. It can also have a loud shout when it strikes. Electricity is also a powerful source of lightning that is often felt in the U.S., with people feeling extremely energetic"
+  },
+  {
+    "id": "dec1cd47",
+    "category": "reasoning",
+    "instruction": "Explain why ice floats on water.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The ice floats on water are caused by the cold, moist air around the vessel, which freezes the water in the vessel and causes it to expand. This causes the water to expand, which causes the water to rise and float on the surface. This causes the water to expand, which causes the water"
+  },
+  {
+    "id": "0c4f7de7",
+    "category": "reasoning",
+    "instruction": "Explain why ice floats on water.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "It is an ancient and reliable practice to place ice cubes on the shoreline of a pool or on the shoreline of the shoreline of a vessel when it is cold, as it will help the water to cool. This helps to maintain the buoyancy of the water and helps keep it warm while"
+  },
+  {
+    "id": "1571efe9",
+    "category": "reasoning",
+    "instruction": "Explain why ice floats on water.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "This is due to their high temperatures and the lack of sunlight in the atmosphere to provide even colder ocean temperatures. Ice floats in water make it difficult for organisms to spread or replicate, helping to compensate for the colder waters. Since every year the ocean temperatures increase, there is a tendency towards deeper ocean ice"
+  },
+  {
+    "id": "747d55c9",
+    "category": "reasoning",
+    "instruction": "If it is raining, the ground gets wet. The ground is wet. Can we conclude it is raining? Explain.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, the ground is wet."
+  },
+  {
+    "id": "f9d014b4",
+    "category": "reasoning",
+    "instruction": "If it is raining, the ground gets wet. The ground is wet. Can we conclude it is raining? Explain.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, the ground is wet."
+  },
+  {
+    "id": "66be58eb",
+    "category": "reasoning",
+    "instruction": "If it is raining, the ground gets wet. The ground is wet. Can we conclude it is raining? Explain.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The rain does not necessarily indicate a lack of rain in the vicinity of the player. It can be caused by elements such as sand, concrete, water, and other factors."
+  },
+  {
+    "id": "72881c69",
+    "category": "reasoning",
+    "instruction": "All birds can fly. A penguin is a bird. Is the conclusion 'a penguin can fly' valid? Explain.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, the conclusion \"a penguin can fly\" is valid. It is a valid conclusion because penguins are mammals, and they are able to fly. They are also known to have a range of different habitats, including in the Antarctic, in which to live."
+  },
+  {
+    "id": "b3d9b525",
+    "category": "reasoning",
+    "instruction": "All birds can fly. A penguin is a bird. Is the conclusion 'a penguin can fly' valid? Explain.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, penguins are capable of flying."
+  },
+  {
+    "id": "22b9a713",
+    "category": "reasoning",
+    "instruction": "All birds can fly. A penguin is a bird. Is the conclusion 'a penguin can fly' valid? Explain.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "True. At least one species of penguin actually can fly. They are arboreal penguins made up primarily of long, curved bamboo and have a short, thin front, making them ideal for lounging in rocks or on a water tank. Other species of penguins include the penguin"
+  },
+  {
+    "id": "94cf0a1e",
+    "category": "reasoning",
+    "instruction": "A train leaves at 3 PM and arrives at 6 PM. How long was the journey?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The journey took approximately 8.5 hours."
+  },
+  {
+    "id": "be5574f8",
+    "category": "reasoning",
+    "instruction": "A train leaves at 3 PM and arrives at 6 PM. How long was the journey?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The journey from Paris to London took around 12 hours."
+  },
+  {
+    "id": "3c90ee3f",
+    "category": "reasoning",
+    "instruction": "A train leaves at 3 PM and arrives at 6 PM. How long was the journey?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "For the journey from Tabor to Estadio Prudential, the trip took 22 days."
+  },
+  {
+    "id": "43042cf8",
+    "category": "reasoning",
+    "instruction": "If today is Wednesday, what day will it be in 10 days?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "10 days is equal to 10 days in 10 years."
+  },
+  {
+    "id": "036febe5",
+    "category": "reasoning",
+    "instruction": "If today is Wednesday, what day will it be in 10 days?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Monday, October 23."
+  },
+  {
+    "id": "0ed9123b",
+    "category": "reasoning",
+    "instruction": "If today is Wednesday, what day will it be in 10 days?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The 8th day of January could never be the same, but it is definitely early in the month giving chances to find peace of mind and relaxation before the sun sets on Wednesday. Enjoy it and be cheerful throughout!"
+  },
+  {
+    "id": "71ba1f8e",
+    "category": "reasoning",
+    "instruction": "A shop sells apples in bags of 6. If someone buys 4 bags, how many apples do they have?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "4 bags = 6 apples."
+  },
+  {
+    "id": "1e199310",
+    "category": "reasoning",
+    "instruction": "A shop sells apples in bags of 6. If someone buys 4 bags, how many apples do they have?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "4 \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10 \n11 \n12 \n13 \n14 \n15 \n16 \n17 \n18 \n19"
+  },
+  {
+    "id": "516d23ee",
+    "category": "reasoning",
+    "instruction": "A shop sells apples in bags of 6. If someone buys 4 bags, how many apples do they have?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "4 bags is enough for 0.0036 percent probability for the one picked. If each bag contains 2 apples, each 64-74 nut weighs 68 grams. Shipping allows 11.72 ounces worldwide which is equal to 67 grams for every ounce of apple taken in."
+  },
+  {
+    "id": "07de100c",
+    "category": "reasoning",
+    "instruction": "Why does ice melt faster in warm water than in cold water?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The speed at which ice melts is dependent on the temperature of the water and the amount of water in the water. Heat from the sun causes the water to expand and contract, while cold water freezes at a faster rate. The faster the water freezes, the faster it freezes. When water freezes, it"
+  },
+  {
+    "id": "3c221b69",
+    "category": "reasoning",
+    "instruction": "Why does ice melt faster in warm water than in cold water?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Cold water freezes at around 10 degrees Fahrenheit, while hot water freezes at around 300 degrees Fahrenheit. The colder the water, the faster the water boils. In colder water, the water boils faster than in warm water, which means that the boil rate is much higher. Therefore, hot water boils faster than"
+  },
+  {
+    "id": "102200a8",
+    "category": "reasoning",
+    "instruction": "Why does ice melt faster in warm water than in cold water?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Temperature changes can have a huge effect on ice flow, as it freezes more rapidly. It releases a strong magnetic field to create hot and cold air closer to the surface. Increasing temperatures can also significantly improve the speed of the water - this can take place with cold air coming from the ocean, while hot"
+  },
+  {
+    "id": "e48e6415",
+    "category": "reasoning",
+    "instruction": "If Sarah is older than Tom, and Tom is older than Mike, who is the youngest?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The oldest person to be considered for the role of Tom is Tom Cruise."
+  },
+  {
+    "id": "2c417563",
+    "category": "reasoning",
+    "instruction": "If Sarah is older than Tom, and Tom is older than Mike, who is the youngest?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Sarah is not the oldest."
+  },
+  {
+    "id": "303101a2",
+    "category": "reasoning",
+    "instruction": "If Sarah is older than Tom, and Tom is older than Mike, who is the youngest?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Overall, the youngest is Matthew. Matthew had a long gray beard with a somewhat emaciated expression and his face was otherwise somewhat human due to his slightly aged manner. His eyebrows were set low, which made him even more likely to recognize people. Tom was also taller than him and despite his lower"
+  },
+  {
+    "id": "59c2f5d6",
+    "category": "reasoning",
+    "instruction": "Explain why a metal spoon feels colder than a wooden spoon at room temperature.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "A metal spoon feels colder than a wooden spoon at room temperature because of the presence of carbon dioxide in the air, which is absorbed by the spoon and causes it to spin. This causes the spoon to spin faster and the carbon dioxide in the air causes the carbon dioxide to scatter and the resulting colder air"
+  },
+  {
+    "id": "3e909e2e",
+    "category": "reasoning",
+    "instruction": "Explain why a metal spoon feels colder than a wooden spoon at room temperature.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "It is because the metals in a wooden spoon are extremely soft and don't stick to one another. Furthermore, the amount of force that is applied to the wooden spoon can be very large, making it difficult to separate the particles and help the spoon break up into smaller chunks. It is also important to"
+  },
+  {
+    "id": "7afdf801",
+    "category": "reasoning",
+    "instruction": "Explain why a metal spoon feels colder than a wooden spoon at room temperature.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "A metal spoon feels colder than a wooden spoon at room temperature because of the irregular contact of the stem of the handle. It is best to use a different type of wooden spoon depending on your taste preferences. When preparing your food, there are two major components of your ingredients that become important to keep it"
+  },
+  {
+    "id": "74599c1d",
+    "category": "reasoning",
+    "instruction": "A car travels 60 miles in 1 hour. How far will it travel in 3 hours at the same speed?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The car will travel in 3 hours at the same speed as the average person."
+  },
+  {
+    "id": "e03bd92b",
+    "category": "reasoning",
+    "instruction": "A car travels 60 miles in 1 hour. How far will it travel in 3 hours at the same speed?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The car will typically travel in 3 hours at the same speed at which it is travelling in its current state of motion."
+  },
+  {
+    "id": "a1e3e944",
+    "category": "reasoning",
+    "instruction": "A car travels 60 miles in 1 hour. How far will it travel in 3 hours at the same speed?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The speed at which four individual carriages will travel in 3 hours is 126 miles per hour."
+  },
+  {
+    "id": "5b2582f7",
+    "category": "reasoning",
+    "instruction": "If all squares are rectangles, is every rectangle a square? Explain.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, every rectangle is a square."
+  },
+  {
+    "id": "7543ef99",
+    "category": "reasoning",
+    "instruction": "If all squares are rectangles, is every rectangle a square? Explain.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, every rectangle is a square."
+  },
+  {
+    "id": "4f55dda5",
+    "category": "reasoning",
+    "instruction": "If all squares are rectangles, is every rectangle a square? Explain.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Conceptually, all of the squares could be considered square if all the squares are drawn on one side, and are necessarily shown in space, where each corresponding color is on the entire rectangle. However, if all two sides are drawn on the same side, the potential shape of each of the squares"
+  },
+  {
+    "id": "f24a8b68",
+    "category": "reasoning",
+    "instruction": "Why do we need to wear seatbelts in a moving car?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "It is essential to wear seatbelts in a moving car to maintain safety and comfort. They can help to reduce stress and reduce the amount of time in the car. Additionally, they can help to reduce weight, reduce fatigue, and help to reduce the risk of injury."
+  },
+  {
+    "id": "3c997cfe",
+    "category": "reasoning",
+    "instruction": "Why do we need to wear seatbelts in a moving car?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The most important thing to consider when buying a car is safety. The average person needs to regularly check their car for safety issues and make sure it is in good condition before purchasing. Additionally, it is important to have a safe and secure transportation system in place to safeguard your car when travelling. You should"
+  },
+  {
+    "id": "a495998d",
+    "category": "reasoning",
+    "instruction": "Why do we need to wear seatbelts in a moving car?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "There are a limited number of safety seats in a moving car, which makes wearing them unnecessary, and can greatly affect your safety. At work, for example, it is important to have your car securely secured to the window and to always wearing a comfortable white or light blue dress shirt."
+  },
+  {
+    "id": "44192a57",
+    "category": "reasoning",
+    "instruction": "If a plant is kept in a dark room, what will happen to it over time?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The plants will eventually die out, and the plants will be replaced by new plants."
+  },
+  {
+    "id": "ff489456",
+    "category": "reasoning",
+    "instruction": "If a plant is kept in a dark room, what will happen to it over time?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The plants will grow and die over time. As the plants grow, they will slowly decompose and eventually decompose. Eventually, they will be taken out of their dormant state and placed in a sanitarium where they will be kept for a week or two. As the plants decompose, they"
+  },
+  {
+    "id": "542cb11a",
+    "category": "reasoning",
+    "instruction": "If a plant is kept in a dark room, what will happen to it over time?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "One of the main reasons plants become much less attractive to some people at night can be because light traps too dense on the plants foliage, making them taller, which reduces their light potential, creating a hard light build up on the plants eyes, making them less colorful and a less effective sight for regular people"
+  },
+  {
+    "id": "6977765b",
+    "category": "reasoning",
+    "instruction": "Explain why the sky appears blue during the day.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sky appears blue during the day because of the sun's rays, which scatter the sky in a circular pattern. The sun's rays scatter the sky in a circle, creating a bright, circular sky. The colors of the sky are blue, violet, and white."
+  },
+  {
+    "id": "2c6a8f9a",
+    "category": "reasoning",
+    "instruction": "Explain why the sky appears blue during the day.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The sky appears blue during the day due to the rotation of the Earth, which is the amount of sunlight entering the Earth's atmosphere. The blue coloration also has a calming effect on the eye, which helps reduce stress and anxiety."
+  },
+  {
+    "id": "5377a51d",
+    "category": "reasoning",
+    "instruction": "Explain why the sky appears blue during the day.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The sky appears blue in terms of both wavelengths of light, compared to white during the night. The red and blue light rays at the X-axis are smaller in total wavelength, whereas the orange and yellow changes in total distance. Additionally, most visible objects on the celestial body have higher spatial energy levels"
+  },
+  {
+    "id": "17ad171d",
+    "category": "reasoning",
+    "instruction": "Two trains start from the same station in opposite directions. How would you calculate the distance between them after 2 hours?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Distance between trains is based on the distance between them, not the time it takes for them to reach each other."
+  },
+  {
+    "id": "dd488383",
+    "category": "reasoning",
+    "instruction": "Two trains start from the same station in opposite directions. How would you calculate the distance between them after 2 hours?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Distance between the two trains is 1.875 miles."
+  },
+  {
+    "id": "5ddaa131",
+    "category": "reasoning",
+    "instruction": "Two trains start from the same station in opposite directions. How would you calculate the distance between them after 2 hours?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Using the distance of the two trains as evidence would have to be taken into account the person doing the calculation of the distance. Another consideration would be based on their race or age. After doing the math, it would end up being an overall rate of 3.74 to 4.61 in 5 minutes"
+  },
+  {
+    "id": "c4143a3d",
+    "category": "reasoning",
+    "instruction": "If you flip a coin twice, what are the possible outcomes?",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The possible outcomes of flipping a coin are: 1. A coin flips 1/2 of the way round, 2. The coin is flipped 1/2 of the way round, 3. The coin is flipped 1/2 of the way round, 4. The coin is flipped 1/2 of"
+  },
+  {
+    "id": "89a406e3",
+    "category": "reasoning",
+    "instruction": "If you flip a coin twice, what are the possible outcomes?",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The coin tosses may be the most likely outcome."
+  },
+  {
+    "id": "d5351235",
+    "category": "reasoning",
+    "instruction": "If you flip a coin twice, what are the possible outcomes?",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Determining the outcomes of flips would be easy, however, looking at coin flips can be interesting. Many common turns will be drawn, like a madman turning on his tail and then swinging its attack. These decisions also should help keep the game fair. Lastly, flipping a coin will encourage players"
+  },
+  {
+    "id": "a2e3207f",
+    "category": "reasoning",
+    "instruction": "Explain why oil floats on water.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Oil floats on water is because the water is heated by the sun and the particles of the liquid are heated by the molecules of the water. The water is then heated by the sun, which causes the particles of the liquid to expand, creating a circular, circular watery sphere. The water is then"
+  },
+  {
+    "id": "d12abd6f",
+    "category": "reasoning",
+    "instruction": "Explain why oil floats on water.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Oils float on water are a result of the sun's rays being absorbed into the water. As the water cools, its energy is released and it's no longer as hot as it once was. This helps to cool the water, which in turn helps to create cooler air in the ocean."
+  },
+  {
+    "id": "aa516c98",
+    "category": "reasoning",
+    "instruction": "Explain why oil floats on water.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Oil floats on water are due to a combination of low surface tension (R tension) in the water that prevents it from reaching the surface or breaking easily. Low temperatures during the day can create a high area around the water which breaks up the oil molecules. Therefore the surface tension of the water helps to"
+  },
+  {
+    "id": "f5d8f020",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence using a simile.",
+    "input": "The car is very fast.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The car is very fast."
+  },
+  {
+    "id": "9b10ee77",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence using a simile.",
+    "input": "The car is very fast.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The car is very fast."
+  },
+  {
+    "id": "b02fa629",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence using a simile.",
+    "input": "The car is very fast.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "It definitely is!"
+  },
+  {
+    "id": "80f98e77",
+    "category": "writing",
+    "instruction": "Write a short greeting for a birthday card.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Dear Birthday Card Readers,\nHappy Birthday!"
+  },
+  {
+    "id": "22e78c64",
+    "category": "writing",
+    "instruction": "Write a short greeting for a birthday card.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Dear Birthday Card Fans,\n\nI would like to express my deepest appreciation for all of you who have made this year's card a success. I hope you enjoy it for as long as it lasts. I can't wait to get to work this summer and look forward to the summer of growing up"
+  },
+  {
+    "id": "827308f9",
+    "category": "writing",
+    "instruction": "Write a short greeting for a birthday card.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Be brave: life is full of possibilities, always have. Make it happen, stay inspired, and keep performing to make our lives happen."
+  },
+  {
+    "id": "12687d9c",
+    "category": "writing",
+    "instruction": "Summarize the concept of photosynthesis in one sentence.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Photosynthesis is the process by which plants, algae, and other organisms convert carbon dioxide into sugars, glucose, and other energy."
+  },
+  {
+    "id": "ac5ed59b",
+    "category": "writing",
+    "instruction": "Summarize the concept of photosynthesis in one sentence.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Photosynthesis is the process by which plants and animals convert sunlight into energy and convert that energy to energy for the plants. It involves the conversion of sunlight energy into carbon dioxide and other carbon dioxide molecules. Plants convert these carbon dioxide molecules into ATP, NADPH, and NADPHO, which are then"
+  },
+  {
+    "id": "122d3fae",
+    "category": "writing",
+    "instruction": "Summarize the concept of photosynthesis in one sentence.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Photosynthesis is the process of producing oxygen for the atmosphere and a source of living and biotic organisms alike. It is the process by which the body responds to a foreign energy in order to make a significant contribution to the production of a certain chemical. The bodies of organisms dependent on the environment have a"
+  },
+  {
+    "id": "678a678d",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more formal.",
+    "input": "Hey, can you send me that file ASAP?",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Yes, you can! Let me know!"
+  },
+  {
+    "id": "7d94da8e",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more formal.",
+    "input": "Hey, can you send me that file ASAP?",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, of course!"
+  },
+  {
+    "id": "4ac8795c",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more formal.",
+    "input": "Hey, can you send me that file ASAP?",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Yes, you can send me that! Just send me the email with the ID and my details (ie, what file you are sending me) as well as the date and time when it will be available on your computer. It will most likely take two to three weeks."
+  },
+  {
+    "id": "66cb4422",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to make it more concise.",
+    "input": "Due to the fact that it was raining, we decided to stay indoors.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The rain was falling hard, and we decided to stay outside."
+  },
+  {
+    "id": "3203eab7",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to make it more concise.",
+    "input": "Due to the fact that it was raining, we decided to stay indoors.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The rain was already falling on the outside, making it difficult to stay up."
+  },
+  {
+    "id": "10f7968a",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to make it more concise.",
+    "input": "Due to the fact that it was raining, we decided to stay indoors.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "We decided not to stay inside because of the risk of going down the street, getting lost in the clouds, and having to put on our sunglasses in such a hurry."
+  },
+  {
+    "id": "83d983d2",
+    "category": "writing",
+    "instruction": "Write a one-sentence apology for being late to a meeting.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I was late to a meeting."
+  },
+  {
+    "id": "a8d0c178",
+    "category": "writing",
+    "instruction": "Write a one-sentence apology for being late to a meeting.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "I was late to a meeting with my team. It was a great experience and I wanted to make an impact. I'm so grateful for what I did this weekend. I'm so thankful for the opportunity to have the opportunity to share my journey with the world."
+  },
+  {
+    "id": "a5407a62",
+    "category": "writing",
+    "instruction": "Write a one-sentence apology for being late to a meeting.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Yes, I'm late to a meeting."
+  },
+  {
+    "id": "4f3f3eab",
+    "category": "writing",
+    "instruction": "Rewrite this sentence in the passive voice.",
+    "input": "The chef cooked the meal.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The chef cooked the meal."
+  },
+  {
+    "id": "f9873750",
+    "category": "writing",
+    "instruction": "Rewrite this sentence in the passive voice.",
+    "input": "The chef cooked the meal.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The chef used the best ingredients."
+  },
+  {
+    "id": "d250c3e8",
+    "category": "writing",
+    "instruction": "Rewrite this sentence in the passive voice.",
+    "input": "The chef cooked the meal.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The Chef Cooked The Meal"
+  },
+  {
+    "id": "ce470cf4",
+    "category": "writing",
+    "instruction": "Write a short thank-you note for a birthday gift.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I'm so grateful for all the memories you have with me. I can't express how much I miss you."
+  },
+  {
+    "id": "a78725f4",
+    "category": "writing",
+    "instruction": "Write a short thank-you note for a birthday gift.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "I am very thankful for the thoughtful and thoughtful gift that I received today."
+  },
+  {
+    "id": "dcd3e284",
+    "category": "writing",
+    "instruction": "Write a short thank-you note for a birthday gift.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Kindest and Sighing,"
+  },
+  {
+    "id": "89fce48a",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to sound more polite.",
+    "input": "Give me the report now.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I have the report now."
+  },
+  {
+    "id": "b359e222",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to sound more polite.",
+    "input": "Give me the report now.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Yes, I receive the report now."
+  },
+  {
+    "id": "ab21ba68",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence to sound more polite.",
+    "input": "Give me the report now.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Treat each case like it is important to know the facts and can be improved upon."
+  },
+  {
+    "id": "937bc4dd",
+    "category": "writing",
+    "instruction": "Write a two-line poem about the moon.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The moon shines bright and clear,\nThe stars twinkling in the night.\nThe moon is like a beacon of light,\nThe stars gleaming in the night."
+  },
+  {
+    "id": "ad980251",
+    "category": "writing",
+    "instruction": "Write a two-line poem about the moon.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The moon was full of life and peace,\nIt was like a shining star in the night,\nBut the night was cold and night was full of darkness,\nThe night was full of death and despair,\nThe moon was full of life and peace,\nBut the night was full of"
+  },
+  {
+    "id": "929e741b",
+    "category": "writing",
+    "instruction": "Write a two-line poem about the moon.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "It was nightless in the woods, and me was gazing down upon the gleaming night's clouds streaming in, the hot leaves of the trees swaying overhead, the stars casting bright green shadows over the horizon. We peered into the stars, each with their fascinating colors, and at each other"
+  },
+  {
+    "id": "ea7d4001",
+    "category": "writing",
+    "instruction": "Rewrite this sentence using a metaphor.",
+    "input": "She was very happy.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "She was very happy."
+  },
+  {
+    "id": "82838862",
+    "category": "writing",
+    "instruction": "Rewrite this sentence using a metaphor.",
+    "input": "She was very happy.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "She was happy!"
+  },
+  {
+    "id": "3025529d",
+    "category": "writing",
+    "instruction": "Rewrite this sentence using a metaphor.",
+    "input": "She was very happy.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "She is always smiling and smiling."
+  },
+  {
+    "id": "1d02073c",
+    "category": "writing",
+    "instruction": "Write a short caption for a photo of a sunset.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The sun is setting on the horizon, setting on the horizon and setting on the horizon."
+  },
+  {
+    "id": "90e1b3e5",
+    "category": "writing",
+    "instruction": "Write a short caption for a photo of a sunset.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The sun is shining brightly in this stunning scene."
+  },
+  {
+    "id": "85aa1b8f",
+    "category": "writing",
+    "instruction": "Write a short caption for a photo of a sunset.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Nature's Funland"
+  },
+  {
+    "id": "dda72680",
+    "category": "writing",
+    "instruction": "Rewrite the following paragraph to remove repetition.",
+    "input": "The dog ran fast. The dog was happy. The dog barked loudly.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The dog ran fast."
+  },
+  {
+    "id": "8ec6fb5c",
+    "category": "writing",
+    "instruction": "Rewrite the following paragraph to remove repetition.",
+    "input": "The dog ran fast. The dog was happy. The dog barked loudly.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The dog ran faster than usual."
+  },
+  {
+    "id": "56e71ba3",
+    "category": "writing",
+    "instruction": "Rewrite the following paragraph to remove repetition.",
+    "input": "The dog ran fast. The dog was happy. The dog barked loudly.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "The answer is, \"The dog ran fast.\" It's interesting to note that it was followed by three individual calls per second. We also have two sets of numbers representing the rate of run speed (a measure of progress), and we can also use our own experience to compare and contrast on this basis"
+  },
+  {
+    "id": "25748465",
+    "category": "writing",
+    "instruction": "Write a short congratulatory message for a graduation.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I am so excited to be graduating from college this year. I am so grateful for the opportunity to be part of something so special. I look forward to continuing to learn and grow as I strive to become a better person. Thank you for your continued support and encouragement."
+  },
+  {
+    "id": "96649c3e",
+    "category": "writing",
+    "instruction": "Write a short congratulatory message for a graduation.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Dear Graduation,\n\nMy name is Aaron and I am thrilled to be living a fulfilling and rewarding life. I look forward to continuing my education and pursuing my dream of a better life for all."
+  },
+  {
+    "id": "b98ea575",
+    "category": "writing",
+    "instruction": "Write a short congratulatory message for a graduation.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "I certainly hope that all the participants in my program and the students my school respects will make excellent teachers and successful students throughout my life. Through the success and sacrifices made by having a well-trained and capable general manager trained at Rutgers, I can make a positive impact on a graduation day at the school"
+  },
+  {
+    "id": "3fed0b3c",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more persuasive.",
+    "input": "Please consider donating to our cause.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Donating is a great way to help the cause of animal welfare. It can help to have a sense of community and connection with animals, and it can also help to build a sense of community and connection with other animals."
+  },
+  {
+    "id": "b801487e",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more persuasive.",
+    "input": "Please consider donating to our cause.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Donation is a powerful tool to help people across America. It enables communities to come together and make a positive impact with their shared experiences."
+  },
+  {
+    "id": "07c05104",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to sound more persuasive.",
+    "input": "Please consider donating to our cause.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Giving helps. It can mean literally more to help maintain family and education in the community."
+  },
+  {
+    "id": "45aa6d73",
+    "category": "writing",
+    "instruction": "Write a one-sentence summary of a rainy day.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "It was a sunny day in the city, with the sun setting on the horizon and the wind blowing slowly in the direction of the city. A few blocks away, a group of people were gathering around a campfire, eager to experience the sights and sounds of nature. As they settled in, the"
+  },
+  {
+    "id": "b092df01",
+    "category": "writing",
+    "instruction": "Write a one-sentence summary of a rainy day.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The rain was falling hard on the streets, and some people were struggling to get out of the way."
+  },
+  {
+    "id": "3315e6d6",
+    "category": "writing",
+    "instruction": "Write a one-sentence summary of a rainy day.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "I'm alive."
+  },
+  {
+    "id": "109140be",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to remove the passive voice.",
+    "input": "The window was broken by the storm.",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The storm was broken by the storm."
+  },
+  {
+    "id": "118a6e81",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to remove the passive voice.",
+    "input": "The window was broken by the storm.",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The window was broken by the storm."
+  },
+  {
+    "id": "a3ab89bf",
+    "category": "writing",
+    "instruction": "Rewrite this sentence to remove the passive voice.",
+    "input": "The window was broken by the storm.",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Prerequisite: Storm"
+  },
+  {
+    "id": "3477a28f",
+    "category": "writing",
+    "instruction": "Write a short farewell message for a coworker leaving the company.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "I'm so grateful to have had the opportunity to work with you for years. I know you will be a great addition to our team and will help us grow. I know you will be a great addition to our team and will help us find new opportunities."
+  },
+  {
+    "id": "59434c49",
+    "category": "writing",
+    "instruction": "Write a short farewell message for a coworker leaving the company.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "I'm so happy to be here and I can't thank you enough. I'm so grateful for the opportunity to work with you and I can't wait to start making the most of it."
+  },
+  {
+    "id": "f6744dc0",
+    "category": "writing",
+    "instruction": "Write a short farewell message for a coworker leaving the company.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Collaborative Creativity is a feeling I like to carry with me wherever I go. I look forward to continuing this craft with teammates and colleagues."
+  },
+  {
+    "id": "cdbca833",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence in a more formal tone.",
+    "input": "That's awesome, thanks a lot!",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "It's great to have you here."
+  },
+  {
+    "id": "6b63a8d0",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence in a more formal tone.",
+    "input": "That's awesome, thanks a lot!",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "It's definitely worth it."
+  },
+  {
+    "id": "823b5f4a",
+    "category": "writing",
+    "instruction": "Rewrite the following sentence in a more formal tone.",
+    "input": "That's awesome, thanks a lot!",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "It could be improved if we kept using Google Docs and Word with more consistent use."
+  },
+  {
+    "id": "6615eb22",
+    "category": "writing",
+    "instruction": "Write a short description of a busy city street.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "The bustling streets of Tokyo, Tokyo, and Osaka are filled with people who flock to the streets for the fun of it."
+  },
+  {
+    "id": "4a867501",
+    "category": "writing",
+    "instruction": "Write a short description of a busy city street.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "The busy streets of Tokyo are often located on busy streets, with people walking or shopping in the vicinity. As the years progress, the streets become more congested, with people walking across busy streets for more than two hours a day. Some popular spots in Tokyo include the Tokyo Metropolitan Convention Center, the"
+  },
+  {
+    "id": "9326123b",
+    "category": "writing",
+    "instruction": "Write a short description of a busy city street.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "One of the most historic cities in southern California is Humboldt City. Orchid flower patches weave through the streets every morning, which, if not adequately photographed, make for an unpredictable entertainment environment, helping create a warm sense of being alive in a city with a long-forgotten past."
+  },
+  {
+    "id": "a3454afb",
+    "category": "instruction_following",
+    "instruction": "List three benefits of regular exercise.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Regular exercise can help to reduce stress, improve mental clarity, and even boost overall physical health. Regular physical activity can also help to boost your mood, boost your creativity, and boost your overall wellbeing. Regular physical activity can also help to boost your immune system, boost your mood, and boost your overall"
+  },
+  {
+    "id": "382e7540",
+    "category": "instruction_following",
+    "instruction": "List three benefits of regular exercise.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Regular exercise can help to reduce stress and reduce fatigue. Regular exercise can help to reduce stress and reduce fatigue by increasing energy intake, increasing physical activity, and maintaining a healthy weight. Regular physical activity can also help to increase productivity and physical fitness.\n2. Regular physical activity can reduce anxiety"
+  },
+  {
+    "id": "c211a5f5",
+    "category": "instruction_following",
+    "instruction": "List three benefits of regular exercise.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Regular exercise helps to improve flexibility and strength throughout your body and can also help boost performance. Regular physical activity also draws your hormones into balance and can help you maintain physical strength and build a focus on your career goals."
+  },
+  {
+    "id": "6ee442e1",
+    "category": "instruction_following",
+    "instruction": "Give two tips for improving focus while studying.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "1. Focus on the task at hand and the task at hand is the one you are trying to accomplish. Focus on the task at hand and the task at hand is the one you are trying to accomplish.\n2. Take time to think and practice your skills. Take time to think about the"
+  },
+  {
+    "id": "39e84a71",
+    "category": "instruction_following",
+    "instruction": "Give two tips for improving focus while studying.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Set aside time to focus on the task at hand, instead of just focusing on it.\n2. Plan ahead to accomplish each task. Developing a plan should be easy, but it can take a few days to get going, so plan ahead and stick to it."
+  },
+  {
+    "id": "a63b4dd6",
+    "category": "instruction_following",
+    "instruction": "Give two tips for improving focus while studying.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Three ways to improve focus while studying are:\n\u2022 Taking regular breaks;\n\u2022 Taking breaks while studying for exams;\n\u2022 Reviewing and rating your progress while studying, as well as analyzing your results, working through these to improve your study levels.\n\nRecruiting additional leads; having"
+  },
+  {
+    "id": "3083ec84",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'hello' into French.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Hello, welcome to my website! I'm here to help you!"
+  },
+  {
+    "id": "7eaa6813",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'hello' into French.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Hello, welcome to our website!"
+  },
+  {
+    "id": "339d129b",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'hello' into French.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Ago de Paris est d\u00e9part: \"Yes, I'm here.\""
+  },
+  {
+    "id": "5580006f",
+    "category": "instruction_following",
+    "instruction": "Explain what an API is in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "An API is a set of rules and procedures used to access data from a website, such as the website's contact information, the user's contact information, and the user's contact information for the website. The API is used to access data from websites, allowing users to send and receive data from the"
+  },
+  {
+    "id": "d239e3c6",
+    "category": "instruction_following",
+    "instruction": "Explain what an API is in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "An API is a set of rules and procedures that govern how a website is managed and used. API rules and procedures are implemented in the API and are written in the language of the language that is used to define the API. The API ensures that all resources are accessible and that all resources are being used"
+  },
+  {
+    "id": "06323687",
+    "category": "instruction_following",
+    "instruction": "Explain what an API is in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "An API refers to a set of algorithms and mechanisms that facilitate software development. Typically, a system uses the API to access and build services that are typically not available at a website and, at the end of the day, that services are not used. The API allows developers to build online services that are"
+  },
+  {
+    "id": "d263013d",
+    "category": "instruction_following",
+    "instruction": "List two ways to save water at home.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "1. Use a water-saving device such as a hose or spigot.\n2. Use a reusable water bottle or reusable water bottle with your water.\n3. Use a reusable water bottle or reusable water bottle with your water.\n4. Use a reusable water bottle with your water"
+  },
+  {
+    "id": "294588eb",
+    "category": "instruction_following",
+    "instruction": "List two ways to save water at home.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Make sure to use a water-efficient source of water. \n2. Use an anti-bacterial and anti-bacterial soap and water. \n3. Use reusable bottles and reusable water bottles to keep water at home. \n4. Keep cooking in a pot or"
+  },
+  {
+    "id": "c2d32065",
+    "category": "instruction_following",
+    "instruction": "List two ways to save water at home.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "1. Take advantage of all types of water supply. Supplies such as drinking faucets, washing dishes and stoves can be easily accessed using public water systems. \n2. Reach out and offer suggestions online. Reducing water stress is essential and can help stay hydrated for longer sessions"
+  },
+  {
+    "id": "db723c92",
+    "category": "instruction_following",
+    "instruction": "Name three colors that are found in a rainbow.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Three colors that are found in a rainbow are blue, yellow, and violet."
+  },
+  {
+    "id": "5ba369d5",
+    "category": "instruction_following",
+    "instruction": "Name three colors that are found in a rainbow.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "#1 is blue, #2 is red, and #3 is black."
+  },
+  {
+    "id": "110d04c5",
+    "category": "instruction_following",
+    "instruction": "Name three colors that are found in a rainbow.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Eyes, Hair, Clothing, Hair"
+  },
+  {
+    "id": "3e18c36d",
+    "category": "instruction_following",
+    "instruction": "Give one example of a renewable energy source.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Renewable energy sources can be found in the following countries: China, India, Pakistan, and the United Arab Emirates."
+  },
+  {
+    "id": "9564b0d9",
+    "category": "instruction_following",
+    "instruction": "Give one example of a renewable energy source.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Renewable energy sources are typically located in the Indian Ocean, the Pacific, and in Asia."
+  },
+  {
+    "id": "5717336b",
+    "category": "instruction_following",
+    "instruction": "Give one example of a renewable energy source.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Renewable energy has several uses. It is being used in cars and energy storage systems to power homes and transform waste into energy when needed. Clean energy accounts for around one in four U.S. homes, making renewable energy an important energy savings vehicle for many families across the United States."
+  },
+  {
+    "id": "16b3803b",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'thank you' into Spanish.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Thank you for your support."
+  },
+  {
+    "id": "9f8ed02a",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'thank you' into Spanish.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Thank you"
+  },
+  {
+    "id": "96a30595",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'thank you' into Spanish.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Thank you."
+  },
+  {
+    "id": "bf845320",
+    "category": "instruction_following",
+    "instruction": "Explain what a database is in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "A database is a set of databases that is used to store, query, and compare data from multiple sources. A database is a set of databases that is used to store, query, and compare data from multiple sources. A database is also used to store, query, and compare data from multiple languages"
+  },
+  {
+    "id": "f07a733a",
+    "category": "instruction_following",
+    "instruction": "Explain what a database is in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "A database is a set of documents, databases, and datasets that is organized according to the needs of the user. A database is a set of documents, databases, and datasets that is organized according to the needs of the user. A database is a web-based system that allows users to search,"
+  },
+  {
+    "id": "bf9dcf6b",
+    "category": "instruction_following",
+    "instruction": "Explain what a database is in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "A database is a set of servers or databases, usually located on different computers throughout the user's home. Per servers, you keep a directory of all your users' financial information on these computers. A database store assigns each user a unique ID assigned to his or her account in a stored database each day"
+  },
+  {
+    "id": "0b8d02e4",
+    "category": "instruction_following",
+    "instruction": "List three common pets people keep at home.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Dog: Dogs are the most common pet people keep at home. They are usually found in the backyard, in the living room, or in the living room. They are also the most likely to be seen outside of the house."
+  },
+  {
+    "id": "85b83084",
+    "category": "instruction_following",
+    "instruction": "List three common pets people keep at home.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Dog: Cats, dogs, and other animals are all common pet people at home."
+  },
+  {
+    "id": "9b499f68",
+    "category": "instruction_following",
+    "instruction": "List three common pets people keep at home.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Dog"
+  },
+  {
+    "id": "f9b793c0",
+    "category": "instruction_following",
+    "instruction": "Give two tips for staying healthy during winter.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Stay hydrated during the coldest months of the year. Keep your water intake low and to-the-point. Use sunscreen and other anti-inflammatory and anti-inflammatory products to reduce water intake."
+  },
+  {
+    "id": "05092995",
+    "category": "instruction_following",
+    "instruction": "Give two tips for staying healthy during winter.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "1. Keep your cold feet warm. In colder months, I often recommend wearing layers of insulation and staying in the shade during the colder months.\n2. Look for natural light during the colder months. Look for natural light at night and make sure to keep your room lighted during the colder months"
+  },
+  {
+    "id": "dac6acc5",
+    "category": "instruction_following",
+    "instruction": "Give two tips for staying healthy during winter.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Volunteering to snowmobiling will help you stay hydrated and increase your overall chances through extended periods of snowmobiling. Additionally, winter jackets can help keep your feet cozy and warm while staying up late for the day."
+  },
+  {
+    "id": "85c63ce0",
+    "category": "instruction_following",
+    "instruction": "Explain what recycling means in one sentence.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Recycling is a process of recycling, which involves removing waste products, such as plastics, metals, and other materials from the environment. Recycling can also include cleaning and sanitizing waste products, such as plastics, metals, and other materials. Recycling can also include recycling waste"
+  },
+  {
+    "id": "a432f87e",
+    "category": "instruction_following",
+    "instruction": "Explain what recycling means in one sentence.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Recycling is different from other forms of transportation because it involves removing waste products, such as plastics, rubber, and waste products, from the environment. Recycling is also used to recycle recyclable materials such as food and fuel, which are then used to build homes, factories, and"
+  },
+  {
+    "id": "576f3d9f",
+    "category": "instruction_following",
+    "instruction": "Explain what recycling means in one sentence.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Recycling allows us to recycle in multiple ways, each providing a unique experience for our environment. Each recycling process is complex but can make a huge impact in our lives. We make money and get through life's ups and downs with a simple and straightforward process. Recycling helps us save for"
+  },
+  {
+    "id": "5c0e3be4",
+    "category": "instruction_following",
+    "instruction": "Name two famous landmarks in Europe.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Stadt-Etienne and the Stadt-Etienne Bridge."
+  },
+  {
+    "id": "4dcc68ac",
+    "category": "instruction_following",
+    "instruction": "Name two famous landmarks in Europe.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Nordic cities such as Paris, Berlin, and Warsaw are famous for their architecture, architecture, and architecture-inspired architecture."
+  },
+  {
+    "id": "b2b7a043",
+    "category": "instruction_following",
+    "instruction": "Name two famous landmarks in Europe.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Paris, October 15, 1874, Trafalgar Square, London's last iconic symbol |"
+  },
+  {
+    "id": "816bf4fa",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'goodbye' into German.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Goodbye is a verb that means to stay in good spirits."
+  },
+  {
+    "id": "fe6ce878",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'goodbye' into German.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Goodbye is the third syllable of the verb 'to be' in the verb 'to be'."
+  },
+  {
+    "id": "397051a0",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'goodbye' into German.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Joy: Goodbye"
+  },
+  {
+    "id": "48dab88c",
+    "category": "instruction_following",
+    "instruction": "List three ingredients commonly used in an Italian pasta dish.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Italian pasta is made with vegetables, pasta, pasta sauce, and garlic."
+  },
+  {
+    "id": "4c0e5809",
+    "category": "instruction_following",
+    "instruction": "List three ingredients commonly used in an Italian pasta dish.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Freshly ground beef, seasoned with olive oil and Parmesan."
+  },
+  {
+    "id": "9b31fa57",
+    "category": "instruction_following",
+    "instruction": "List three ingredients commonly used in an Italian pasta dish.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Bananas, milk, vegetables."
+  },
+  {
+    "id": "31f883f5",
+    "category": "instruction_following",
+    "instruction": "Explain what a firewall is in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "A firewall is a firewall that separates traffic from other systems and allows for easy access to sensitive data. It is designed to block malicious traffic and prevents malicious traffic from reaching the network. It also prevents malicious traffic from reaching the internet itself, where it is more likely to be intercepted and used to target other"
+  },
+  {
+    "id": "220921fb",
+    "category": "instruction_following",
+    "instruction": "Explain what a firewall is in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "A firewall is a firewall that allows a user to access the internet using a computer's physical physical network. A firewall is designed to block access to the internet, preventing users from accessing resources or other potentially malicious content. A firewall is also used to restrict access to certain websites and services, such as file"
+  },
+  {
+    "id": "fae90015",
+    "category": "instruction_following",
+    "instruction": "Explain what a firewall is in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "A firewall is a computer network between computers which allows easy communication between computers, allowing for sharing files and data between computers. They can also support data transfer between computers, leaving each computer free to take risks and adjust to each other. This makes for a secure network for all people, as opposed to a"
+  },
+  {
+    "id": "7fcc9019",
+    "category": "instruction_following",
+    "instruction": "Give one tip for saving money each month.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "One tip for saving money each month is to consider using a savings account when making payments. Savings accounts can be used to store your money and make sure it is safe and secure. Additionally, you can use a savings account to purchase goods and services, such as CDs, DVDs, and other digital media"
+  },
+  {
+    "id": "ffd18f30",
+    "category": "instruction_following",
+    "instruction": "Give one tip for saving money each month.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "One tip for saving money each month is to make a budget list. To do this, follow these tips:\n- Keep track of your expenses and expenses on your savings plan.\n- Check your savings regularly to make sure you have enough money left over in your savings account to cover the expenses you"
+  },
+  {
+    "id": "4e479e8e",
+    "category": "instruction_following",
+    "instruction": "Give one tip for saving money each month.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Avoid marketing campaigns heavily inspired by a particular business slogan. Poor marketing campaigns, when they spread more fear and make people less likely to stick with the product, often encourage users to go on another spending spree."
+  },
+  {
+    "id": "6261ff10",
+    "category": "instruction_following",
+    "instruction": "Name two benefits of reading books regularly.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Reading books regularly can help you stay motivated, increase your self-confidence, and boost your self-esteem. It can also help you to stay motivated and build self-confidence."
+  },
+  {
+    "id": "fc59681e",
+    "category": "instruction_following",
+    "instruction": "Name two benefits of reading books regularly.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Reading books regularly can help you to stay motivated, increase your self-confidence and build your self-esteem. It can also help you to stay motivated and increase your self-awareness."
+  },
+  {
+    "id": "e389e672",
+    "category": "instruction_following",
+    "instruction": "Name two benefits of reading books regularly.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Reads have a calming effect on your life, helping you focus and get things done. They also improve your spatial awareness as you progress through books, reduce anxiety while reading or talking, and strengthen your sense of self-worth."
+  },
+  {
+    "id": "0082f9d2",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'please' into Japanese.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Please be kind."
+  },
+  {
+    "id": "85bf34c5",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'please' into Japanese.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Please be kind."
+  },
+  {
+    "id": "2956fcfb",
+    "category": "instruction_following",
+    "instruction": "Translate the word 'please' into Japanese.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "I am so sorry."
+  },
+  {
+    "id": "97387254",
+    "category": "instruction_following",
+    "instruction": "Explain what cloud storage means in simple terms.",
+    "input": "",
+    "decoding_config": "low_temp",
+    "temperature": 0.3,
+    "top_k": 10,
+    "model_output": "Cloud storage is a service that allows users to store and access their data on a cloud-based storage platform. Cloud storage is used to store and access data on a cloud-based storage platform, which allows users to access and manage their data on a cloud-based storage platform. Cloud storage is used"
+  },
+  {
+    "id": "a72dc824",
+    "category": "instruction_following",
+    "instruction": "Explain what cloud storage means in simple terms.",
+    "input": "",
+    "decoding_config": "mid_temp",
+    "temperature": 0.7,
+    "top_k": 50,
+    "model_output": "Cloud storage is a service that enables users to store their data in a secure and reliable manner. It is used to store data in a secure and reliable manner that is optimized for security and compatibility. Through cloud storage, users can access and access their data anywhere and anytime. Customers can access and access their"
+  },
+  {
+    "id": "3d070026",
+    "category": "instruction_following",
+    "instruction": "Explain what cloud storage means in simple terms.",
+    "input": "",
+    "decoding_config": "high_temp",
+    "temperature": 1.2,
+    "top_k": 100,
+    "model_output": "Cloud storage is a cloud service that enables applications and services to be stored on a distributed, encrypted, shared, or replicated or deployed storage infrastructure. This capability allows applications and services to be organized in a scalable virtual machine environment and be quickly accessed, replicated, deployed, and updated quickly. With cloud storage"
+  }
+]
