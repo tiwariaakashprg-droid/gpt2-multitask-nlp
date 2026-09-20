@@ -2,22 +2,22 @@ Multi-Task NLP Transformer and LLM-as-a-Judge Evaluation
 
 This repository contains a from-scratch implementation of a GPT-2-style decoder-only Transformer and the research code used for evaluating local Large Language Model (LLM) judges against human ratings.
 
-The accompanying TMLR study investigates whether self-consistent LLM judge scores necessarily correspond to human judgments. The empirical evaluation uses an instruction-tuned GPT-2 (124M) model to generate responses, nine human annotators as the human reference, and two local open-weight LLM judges: LLaMA-3-8B and Qwen2.5-7B.
+The accompanying research paper investigates whether self-consistent LLM judge scores necessarily correspond to human judgments. The empirical evaluation uses an instruction-tuned GPT-2 (124M) model to generate responses, nine human annotators as the human reference, and two local open-weight LLM judges: LLaMA-3-8B and Qwen2.5-7B.
 
 1. Project Overview
 
 The project has two related components:
 
 A from-scratch implementation of a GPT-2-style 124M-parameter decoder-only Transformer in PyTorch.
-An empirical LLM-as-a-Judge evaluation pipeline used in the TMLR study.
+An empirical LLM-as-a-Judge evaluation pipeline used in the accompanying study.
 
 The Transformer implementation includes model construction, pretrained weight loading, tokenization, text generation, and fine-tuning utilities.
 
 The research component provides a controlled evaluation protocol for comparing local LLM judge scores with human ratings.
 
-The research evaluation is the primary component relevant to the accompanying TMLR manuscript.
+The research evaluation is the primary component relevant to the accompanying manuscript.
 
-2. TMLR Research Study
+2. Research Study Overview
 Research Question
 
 The study examines whether high self-consistency of an LLM judge should be interpreted as evidence of high reliability or human alignment.
@@ -184,7 +184,7 @@ The main analysis script is:
 
 research/analyze_tmlr.py
 
-It computes the statistical analyses required for the TMLR study, including:
+It computes the statistical analyses required for the study, including:
 
 Human–human agreement
 ICC(2,k)
@@ -208,7 +208,7 @@ The main evaluation runner is:
 
 research/run_multi_judge.py
 
-The strengthened TMLR experiment can be run using:
+The strengthened experiment can be run using:
 
 bash
 python research/run_multi_judge.py \
@@ -253,7 +253,7 @@ Qwen judge score
 
 Partial correlations are then computed between human and judge scores while controlling for response length.
 
-This analysis is implemented in the TMLR research analysis pipeline.
+This analysis is implemented in the research analysis pipeline.
 
 14. Main Empirical Findings
 
@@ -375,9 +375,9 @@ src/evaluate_ollama.py
 
 These files are retained for project history and auditability.
 
-Important: results produced by the legacy evaluation implementation must not be interpreted as results from the strengthened TMLR experiment.
+Important: results produced by the legacy evaluation implementation must not be interpreted as results from the strengthened, validated experiment described in the manuscript.
 
-The final TMLR study uses:
+The final reported study uses:
 
 research/judge_prompt_v2.txt
 research/run_multi_judge.py
@@ -386,7 +386,7 @@ Two local judges
 Three repeated evaluations per response
 The fixed human reference dataset
 
-Therefore, legacy single-judge results should not be used when reproducing or interpreting the final TMLR results.
+Therefore, legacy single-judge results should not be used when reproducing or interpreting the final reported results.
 
 19. Reproducibility Notes
 
@@ -517,12 +517,29 @@ earlier prompts
 earlier evaluation settings
 intermediate experimental outputs
 
-with the final TMLR results.
+with the final reported results.
 
 The final reported results should be reproduced using the research pipeline and protocol described above.
 
-24. License and Usage
+24. Citation
 
-This supplementary package is provided for research reproducibility and academic review.
+If you use this code or dataset in your own work, please cite the accompanying preprint:
 
-The code and data should be used consistently with the licenses and usage conditions of the underlying datasets, pretrained models, libraries, and external tools.
+bibtex
+@misc{tiwari2026consistency,
+  title={When Consistency Does Not Mean Reliability: Evaluating Local LLM Judges Against Human Ratings},
+  author={Tiwari, Aakash Kumar},
+  year={2026},
+  eprint={arXiv:2609.13824},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
+}
+
+
+## 25. License and Usage
+
+This code is released under the **MIT License** — see the `LICENSE` file in this repository for full terms. This permits reuse, modification, and distribution with attribution.
+
+The dataset (generated responses and anonymized human annotation scores) is provided for research and academic reproducibility purposes only.
+
+The pretrained model weights (GPT-2) and third-party libraries used in this project remain subject to their own original licenses (e.g., OpenAI's GPT-2 license, PyTorch, Hugging Face libraries) — please refer to those projects directly for their terms.
